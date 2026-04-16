@@ -2,7 +2,7 @@
   "userName": "",
   "permissionMode": "normal",
   "model": "nvidia/nemotron-3-super-120b-a12b:free",
-  "thinkingBudget": "off",
+  "thinkingBudget": "low",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -27,15 +27,15 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
-  "locale": "en",
+  "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {},
       "loadUserSettings": true,
-      "enableChrome": false,
-      "enableBangBash": false,
+      "enableChrome": true,
+      "enableBangBash": true,
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "lastModel": "haiku",
@@ -65,7 +65,7 @@
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "off"
+    "claude": "low"
   },
   "lastCustomModel": "nvidia/nemotron-3-super-120b-a12b:free",
   "maxTabs": 3,

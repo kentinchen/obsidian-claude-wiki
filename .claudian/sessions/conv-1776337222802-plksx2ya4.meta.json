@@ -4,8 +4,8 @@
   "title": "/plugin install andrej-karpathy-skills@karpathy-sk...",
   "titleGenerationStatus": "failed",
   "createdAt": 1776337222807,
-  "updatedAt": 1776339547184,
-  "lastResponseAt": 1776339547184,
+  "updatedAt": 1776341937273,
+  "lastResponseAt": 1776341937273,
   "sessionId": "1f8e6a11-a957-4529-b060-f24004e1485e",
   "providerState": {
     "providerSessionId": "1f8e6a11-a957-4529-b060-f24004e1485e",
@@ -20,7 +20,6 @@
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
     "contextTokens": 0,
-    "percentage": 0,
-    "contextWindowIsAuthoritative": true
+    "percentage": 0
   }
 }

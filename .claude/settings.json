@@ -3,5 +3,8 @@
     "allow": [
       "Bash(claude config *)"
     ]
+  },
+  "enabledPlugins": {
+    "obsidian@obsidian-skills": true
   }
 }

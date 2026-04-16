@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c7a212daa16682d0",
+        "id": "5000ac005d6a1d9d",
         "type": "tabs",
         "children": [
           {
-            "id": "78bd709e35c87012",
+            "id": "b760f92873b911ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "claude/forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.md",
+                "file": "obsidian/Karpathy 式 AI 知识库搭建指南：让 Claude Code + Obsidian 成为你的第二大脑.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls"
+              "title": "Karpathy 式 AI 知识库搭建指南：让 Claude Code + Obsidian 成为你的第二大脑"
             }
           }
         ]
@@ -192,27 +192,29 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "78bd709e35c87012",
+  "active": "b760f92873b911ba",
   "lastOpenFiles": [
-    "obsidian/Obsidian 接入 Claude 与国产大模型：让 AI 成为你的知识库协作者.md",
-    "obsidian/YishenTuclaudian An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault.md",
+    "claude/forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.md",
+    "obsidian/Karpathy 式 AI 知识库搭建指南：让 Claude Code + Obsidian 成为你的第二大脑.md",
+    "ai/hermes",
+    "ai/openclaw",
+    "obsidian/Obsidian CLI + Claude Code = 王炸组合.md",
+    "obsidian/从代码到知识：Andrej Karpathy 的 LLM 知识库方法论.md",
+    "obsidian/从零搭建个人Wiki RAG：Karpathy范式的本地知识库-腾讯云开发者社区-腾讯云.md",
     "obsidian/让 Claude 成为你的 Obsidian 助手：Claudian 插件一键安装指南.md",
     "obsidian/Karpathy 的 LLM 知识库：用大模型编译你的个人 Wiki.md",
-    "claude/forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.md",
+    "obsidian/Obsidian 接入 Claude 与国产大模型：让 AI 成为你的知识库协作者.md",
+    "obsidian/Obsidian Web Clipper 深度使用笔记：Deepseek 智能加持，微信公众号等素材高效管理.md",
+    "obsidian/YishenTuclaudian An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault.md",
     "proxy",
     "coding/harness",
     "coding/context",
     "coding/vibe",
     "coding",
-    "obsidian/Obsidian Web Clipper 深度使用笔记：Deepseek 智能加持，微信公众号等素材高效管理.md",
     "obsidian/Karpathy 的 LLM 知识库：用大模型编译你的个人 Wiki 1.md",
-    "obsidian/从零搭建个人Wiki RAG：Karpathy范式的本地知识库-腾讯云开发者社区-腾讯云.md",
-    "obsidian/从代码到知识：Andrej Karpathy 的 LLM 知识库方法论.md",
     "docker",
     "cloud",
     "android",
-    "ai",
-    "arch",
     "obsidian/未命名.md"
   ]
 }
