@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c40d015dee225807",
+        "id": "c76c9396dc410c73",
         "type": "tabs",
         "children": [
           {
-            "id": "5cb9c466d5e2c71d",
+            "id": "19d1a2b4f38f44ec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ai/mcp/DayuanJiangnext-ai-draw-io.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "DayuanJiangnext-ai-draw-io"
             }
           }
         ]
@@ -150,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ai/mcp/DayuanJiangnext-ai-draw-io.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "DayuanJiangnext-ai-draw-io 的大纲"
             }
           },
           {
@@ -188,16 +193,23 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5cb9c466d5e2c71d",
+  "active": "a5db0b3bbacdccae",
   "lastOpenFiles": [
-    "ai/mcp/DayuanJiangnext-ai-draw-io A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.md",
+    "ai/mcp/DayuanJiangnext-ai-draw-io.md",
+    "coding/opencode",
+    "coding/claudcode",
+    "ai/mcp",
+    "ai/agents",
+    "ai/openclaw",
+    "ai/hermes",
+    "coding",
+    "ai",
+    "linux",
+    "k8s",
+    "ai/mcp/DayuanJiangnext-ai-draw-io.md",
     "ai/openclaw/openclawopenclaw Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞.md",
     "coding/opencode/code-yeongyuoh-my-openagent omo; the best agent harness.md",
-    "ai/agents",
-    "ai/mcp",
-    "coding/engineering",
     "coding/claude/everything-claude-codeREADME.zh-CN.md at main.md",
-    "coding/opencode",
     "coding/claude/anthropicsclaude-cookbooks A collection of notebooksrecipes showcasing some fun and effective ways of using Claude.md",
     "coding/claude/shanraisshanclaude-code-best-practice from vibe coding to agentic engineering - practice makes claude perfect.md",
     "ai/agents/multica-aimultica The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.md",
@@ -207,10 +219,7 @@
     "coding/claude/forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.md",
     "2026-04-16.md",
     "田公子电子工程师.md",
-    "未命名.base",
     "obsidian/Karpathy 式 AI 知识库搭建指南：让 Claude Code + Obsidian 成为你的第二大脑.md",
-    "ai/hermes",
-    "ai/openclaw",
     "obsidian/Obsidian CLI + Claude Code = 王炸组合.md",
     "obsidian/从代码到知识：Andrej Karpathy 的 LLM 知识库方法论.md",
     "obsidian/从零搭建个人Wiki RAG：Karpathy范式的本地知识库-腾讯云开发者社区-腾讯云.md",
@@ -219,9 +228,6 @@
     "obsidian/Obsidian 接入 Claude 与国产大模型：让 AI 成为你的知识库协作者.md",
     "obsidian/Obsidian Web Clipper 深度使用笔记：Deepseek 智能加持，微信公众号等素材高效管理.md",
     "obsidian/YishenTuclaudian An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault.md",
-    "proxy",
-    "coding/engineering/harness",
-    "coding/engineering/context",
     "obsidian/Karpathy 的 LLM 知识库：用大模型编译你的个人 Wiki 1.md",
     "obsidian/未命名.md"
   ]
