@@ -11,10 +11,14 @@
             "id": "49ef7f3da81ba004",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ai/openclaw/kevinhoclawfeed ClawFeed.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "kevinhoclawfeed ClawFeed"
             }
           }
         ]
@@ -150,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ai/openclaw/kevinhoclawfeed ClawFeed.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "kevinhoclawfeed ClawFeed 的大纲"
             }
           },
           {
@@ -199,8 +204,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76993eb88728c799",
+  "active": "a5db0b3bbacdccae",
   "lastOpenFiles": [
+    "ai/openclaw/PanniantongAgent-Reach.md",
+    "ai/openclaw/kevinhoclawfeed ClawFeed.md",
     "ai/openclaw/OpenClaw Skill 安装与管理指南.md",
     "ai/openclaw/模力方舟moark-skills Moark Skills.md",
     "coding/skills/SimoneAvogadroandroid-reverse-engineering-skill.md",
@@ -229,8 +236,6 @@
     "ai/openclaw/openclawopenclaw.md",
     "ai/hermes/NousResearchhermes-agent The agent that grows with you.md",
     "coding/claudcode/anthropicsclaude-cookbooks.md",
-    "coding/claudcode/everything-claude-code.md",
-    "coding/claudcode/shanraisshanclaude-code-best-practice.md",
     "ai/model",
     "coding/opencode",
     "coding/claudcode",
