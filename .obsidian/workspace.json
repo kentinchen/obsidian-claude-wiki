@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fc804e2870554064",
+        "id": "3abc2206850c81ca",
         "type": "tabs",
         "children": [
           {
-            "id": "b3912580743e9bac",
+            "id": "49ef7f3da81ba004",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "coding/ui/VoltAgentawesome-design-md.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "VoltAgentawesome-design-md"
+              "title": "新标签页"
             }
           }
         ]
@@ -154,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "coding/ui/VoltAgentawesome-design-md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VoltAgentawesome-design-md 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -204,16 +199,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5db0b3bbacdccae",
+  "active": "76993eb88728c799",
   "lastOpenFiles": [
+    "ai/openclaw/OpenClaw Skill 安装与管理指南.md",
+    "ai/openclaw/模力方舟moark-skills Moark Skills.md",
+    "coding/skills/SimoneAvogadroandroid-reverse-engineering-skill.md",
+    "coding/skills/slavingiaskills Claude Code skills.md",
+    "coding/skills/yizhiyanhua-aifireworks-tech-graph.md",
+    "coding/ui/VoltAgentawesome-design-md.md",
     "coding/ui",
     "coding/spec/akfamilyakshare 开源财经数据接口库.md",
-    "coding/ui/VoltAgentawesome-design-md.md",
     "coding/spec/Fission-AIOpenSpec Spec-driven development (SDD) for AI coding assistants.md",
     "coding/spec/AI开发范式---OpenSpec 新手入门教程.md",
     "coding/spec",
-    "coding/skills/yizhiyanhua-aifireworks-tech-graph.md",
-    "coding/skills/SimoneAvogadroandroid-reverse-engineering-skill.md",
     "ai/mcp/SpideXDmcp-swarm.md",
     "ai/mcp/servers.md",
     "ai/engine/lmstudio-ailms LM Studio CLI.md",
@@ -233,14 +231,11 @@
     "coding/claudcode/anthropicsclaude-cookbooks.md",
     "coding/claudcode/everything-claude-code.md",
     "coding/claudcode/shanraisshanclaude-code-best-practice.md",
-    "coding/forrestchangandrej-karpathy-skills.md",
-    "coding/opencode/code-yeongyuoh-my-openagent.md",
     "ai/model",
     "coding/opencode",
     "coding/claudcode",
     "ai/mcp",
     "ai/agents",
-    "ai/openclaw",
-    "ai/hermes"
+    "ai/openclaw"
   ]
 }
