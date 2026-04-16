@@ -8,7 +8,6 @@ description: "The ultimate space for work and life — to find, build, and colla
 tags:
   - "clippings"
 ---
-Table of contents
 
 #### TOC
 
@@ -62,8 +61,6 @@ Whether for users or professional developers, LobeHub will be your AI Agent play
 | --- | --- |
 |  | Join our Discord community! This is where you can connect with developers and other enthusiastic users of LobeHub. |
 
-> [!important] Important
-> **Star Us**, You will receive all release notifications from GitHub without any delay ~ ⭐️
 
 [![](https://private-user-images.githubusercontent.com/17870709/540840085-3216e25b-186f-4a54-9cb4-2f124aec0471.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzYzNDU5MTQsIm5iZiI6MTc3NjM0NTYxNCwicGF0aCI6Ii8xNzg3MDcwOS81NDA4NDAwODUtMzIxNmUyNWItMTg2Zi00YTU0LTljYjQtMmYxMjRhZWMwNDcxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDE2VDEzMjAxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMzNjM2ZDQ5YjVmZTUyZTYwNGE5MzdmMDhiOTVjMTJkMDI3ZGRlNzIwOWY3ZDUxZjMxMTE5MmU4NzMxMzI2ZGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.nWLBk8bTwP8wi8I00HfPw7PGL-LBB6mY1_oRuojwSoU)](https://github.com/lobehub/lobehub/stargazers)
 

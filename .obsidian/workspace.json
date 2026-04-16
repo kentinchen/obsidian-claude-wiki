@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ff193c6e8734065e",
+        "id": "6e4f44d760e5e205",
         "type": "tabs",
         "children": [
           {
-            "id": "d2fb341184624a2f",
+            "id": "828cfb7393556333",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/model/shiyu-coderKronos Kronos A Foundation Model for the Language of Financial Markets.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "shiyu-coderKronos Kronos A Foundation Model for the Language of Financial Markets"
+              "title": "新标签页"
             }
           }
         ]
@@ -154,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/model/shiyu-coderKronos Kronos A Foundation Model for the Language of Financial Markets.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "shiyu-coderKronos Kronos A Foundation Model for the Language of Financial Markets 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -204,13 +199,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5db0b3bbacdccae",
+  "active": "828cfb7393556333",
   "lastOpenFiles": [
-    "ai/model/viratttai-hedge-fund An AI Hedge Fund Team.md",
+    "ai/agents/lobehublobehub.md",
     "ai/model/shiyu-coderKronos Kronos A Foundation Model for the Language of Financial Markets.md",
+    "ai/model/viratttai-hedge-fund An AI Hedge Fund Team.md",
     "ai/agents/obrasuperpowers.md",
     "ai/agents/multica-aimultica.md",
-    "ai/agents/lobehublobehub.md",
     "coding/tmux.md",
     "ai/openclaw/openclawopenclaw.md",
     "ai/hermes/NousResearchhermes-agent The agent that grows with you.md",
