@@ -1,0 +1,26 @@
+{
+  "id": "conv-1776337222802-plksx2ya4",
+  "providerId": "claude",
+  "title": "/plugin install andrej-karpathy-skills@karpathy-sk...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776337222807,
+  "updatedAt": 1776339547184,
+  "lastResponseAt": 1776339547184,
+  "sessionId": "1f8e6a11-a957-4529-b060-f24004e1485e",
+  "providerState": {
+    "providerSessionId": "1f8e6a11-a957-4529-b060-f24004e1485e",
+    "previousProviderSessionIds": [
+      "6547dd29-34fa-483e-82ab-895c538bdb63"
+    ]
+  },
+  "usage": {
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

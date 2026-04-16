@@ -1,0 +1,76 @@
+{
+  "userName": "",
+  "permissionMode": "normal",
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "thinkingBudget": "off",
+  "effortLevel": "high",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "persistentExternalContextPaths": [],
+  "sharedEnvironmentVariables": "ANTHROPIC_BASE_URL=https://openrouter.ai/api\nANTHROPIC_AUTH_TOKEN=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\nANTHROPIC_MODEL=nvidia/nemotron-3-super-120b-a12b:free",
+  "envSnippets": [
+    {
+      "id": "snippet-1776339258193",
+      "name": "openroute",
+      "description": "",
+      "envVars": "ANTHROPIC_BASE_URL=https://openrouter.ai/api\nANTHROPIC_AUTH_TOKEN=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\nANTHROPIC_MODEL=nvidia/nemotron-3-super-120b-a12b:free",
+      "scope": "provider:claude"
+    }
+  ],
+  "customContextLimits": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "locale": "en",
+  "providerConfigs": {
+    "claude": {
+      "safeMode": "acceptEdits",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "enableBangBash": false,
+      "enableOpus1M": false,
+      "enableSonnet1M": false,
+      "lastModel": "haiku",
+      "environmentVariables": "",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://openrouter.ai/api|ANTHROPIC_MODEL=nvidia/nemotron-3-super-120b-a12b:free"
+    },
+    "codex": {
+      "enabled": false,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "",
+      "installationMethod": "native-windows",
+      "installationMethodsByHost": {},
+      "wslDistroOverride": "",
+      "wslDistroOverridesByHost": {}
+    }
+  },
+  "settingsProvider": "claude",
+  "savedProviderModel": {
+    "claude": "nvidia/nemotron-3-super-120b-a12b:free"
+  },
+  "savedProviderEffort": {
+    "claude": "high"
+  },
+  "savedProviderServiceTier": {},
+  "savedProviderThinkingBudget": {
+    "claude": "off"
+  },
+  "lastCustomModel": "nvidia/nemotron-3-super-120b-a12b:free",
+  "maxTabs": 3,
+  "tabBarPosition": "input",
+  "enableAutoScroll": true,
+  "openInMainTab": false,
+  "hiddenProviderCommands": {}
+}
