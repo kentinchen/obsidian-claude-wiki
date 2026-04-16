@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "55e0647da31ad30e",
+        "id": "41160fa1d5486ecc",
         "type": "tabs",
         "children": [
           {
-            "id": "777626f3cc21e532",
+            "id": "608e5045037fcf37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "coding/skills/anthropics-skills.md",
+                "file": "security/chaitin-SafeLine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "anthropics-skills"
+              "title": "chaitin-SafeLine"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "coding/skills/anthropics-skills.md",
+                "file": "security/chaitin-SafeLine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "anthropics-skills 的大纲"
+              "title": "chaitin-SafeLine 的大纲"
             }
           },
           {
@@ -206,8 +206,16 @@
   },
   "active": "a5db0b3bbacdccae",
   "lastOpenFiles": [
-    "coding/skills/agentskills-agentskills.md",
+    "security/chaitin-SafeLine.md",
+    "coding/spec/coleam00-context-engineering-intro.md",
+    "security",
+    "lang/cpp/cpp-for-yourself-lectures-and-homeworks.md",
+    "lang/cpp",
+    "ai/model/QuantAgent.md",
+    "lang",
+    "ai/agc/microsoft-AIOpsLab.md",
     "coding/skills/anthropics-skills.md",
+    "coding/skills/agentskills-agentskills.md",
     "coding/skills/numman-aliopenskills.md",
     "coding/spec/spec-kit.md",
     "coding/davila7claude-code-templates.md",
@@ -232,15 +240,7 @@
     "ai/openclaw/kevinhoclawfeed ClawFeed.md",
     "ai/mcp/supercorp-aisupergateway.md",
     "ai/mcp/punkpeyeawesome-mcp-servers.md",
-    "ai/openclaw/模力方舟moark-skills Moark Skills.md",
-    "coding/skills/SimoneAvogadroandroid-reverse-engineering-skill.md",
-    "coding/skills/slavingiaskills Claude Code skills.md",
-    "coding/skills/yizhiyanhua-aifireworks-tech-graph.md",
-    "coding/ui/VoltAgentawesome-design-md.md",
     "coding/ui",
-    "coding/spec",
-    "ai/engine",
-    "coding/skills",
-    "ai/model"
+    "coding/spec"
   ]
 }
