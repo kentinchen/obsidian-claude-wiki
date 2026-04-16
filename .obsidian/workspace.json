@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0d990accac7f638f",
+        "id": "ff193c6e8734065e",
         "type": "tabs",
         "children": [
           {
-            "id": "329f9646cd432912",
+            "id": "d2fb341184624a2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -172,9 +172,19 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "76993eb88728c799",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -190,22 +200,26 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "marp-slides:Show Slide Preview": false,
-      "claudian:Open Claudian": false
+      "claudian:Open Claudian": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "329f9646cd432912",
+  "active": "a5db0b3bbacdccae",
   "lastOpenFiles": [
-    "ai/openclaw/openclawopenclaw.md",
-    "ai/hermes/NousResearchhermes-agent The agent that grows with you.md",
+    "ai/model/viratttai-hedge-fund An AI Hedge Fund Team.md",
+    "ai/model/shiyu-coderKronos Kronos A Foundation Model for the Language of Financial Markets.md",
     "ai/agents/obrasuperpowers.md",
     "ai/agents/multica-aimultica.md",
+    "ai/agents/lobehublobehub.md",
+    "coding/tmux.md",
+    "ai/openclaw/openclawopenclaw.md",
+    "ai/hermes/NousResearchhermes-agent The agent that grows with you.md",
     "coding/claudcode/anthropicsclaude-cookbooks.md",
     "coding/claudcode/everything-claude-code.md",
     "coding/claudcode/shanraisshanclaude-code-best-practice.md",
     "coding/forrestchangandrej-karpathy-skills.md",
     "coding/opencode/code-yeongyuoh-my-openagent.md",
     "coding/thedotmackclaude-mem.md",
-    "ai/model/shiyu-coderKronos Kronos A Foundation Model for the Language of Financial Markets.md",
     "ai/mcp/DayuanJiangnext-ai-draw-io.md",
     "ai/model",
     "coding/opencode",
@@ -227,9 +241,6 @@
     "田公子电子工程师.md",
     "obsidian/Karpathy 式 AI 知识库搭建指南：让 Claude Code + Obsidian 成为你的第二大脑.md",
     "obsidian/Obsidian CLI + Claude Code = 王炸组合.md",
-    "obsidian/从代码到知识：Andrej Karpathy 的 LLM 知识库方法论.md",
-    "obsidian/从零搭建个人Wiki RAG：Karpathy范式的本地知识库-腾讯云开发者社区-腾讯云.md",
-    "obsidian/让 Claude 成为你的 Obsidian 助手：Claudian 插件一键安装指南.md",
-    "obsidian/Karpathy 的 LLM 知识库：用大模型编译你的个人 Wiki.md"
+    "obsidian/从代码到知识：Andrej Karpathy 的 LLM 知识库方法论.md"
   ]
 }
