@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "87969ae99d8e56dd",
+        "id": "d57f395761d33cf0",
         "type": "tabs",
         "children": [
           {
-            "id": "5c4eb14343bc29d7",
+            "id": "11c7aee64eef6064",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/model/lmstudio-ailms LM Studio CLI.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "lmstudio-ailms LM Studio CLI"
+              "title": "新标签页"
             }
           }
         ]
@@ -154,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/model/lmstudio-ailms LM Studio CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "lmstudio-ailms LM Studio CLI 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -204,10 +199,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5db0b3bbacdccae",
+  "active": "76993eb88728c799",
   "lastOpenFiles": [
+    "ai/engine/lmstudio-ailms LM Studio CLI.md",
+    "ai/engine",
     "ai/agents/langgeniusdify.md",
-    "ai/model/lmstudio-ailms LM Studio CLI.md",
     "ai/agents/ruvnetruflo.md",
     "ai/agents/msitarzewskiagency-agents.md",
     "coding/skills/yizhiyanhua-aifireworks-tech-graph.md",
@@ -235,12 +231,10 @@
     "ai/openclaw",
     "ai/hermes",
     "coding",
-    "ai",
     "coding/claude/everything-claude-codeREADME.zh-CN.md at main.md",
     "coding/claude/anthropicsclaude-cookbooks A collection of notebooksrecipes showcasing some fun and effective ways of using Claude.md",
     "coding/claude/shanraisshanclaude-code-best-practice from vibe coding to agentic engineering - practice makes claude perfect.md",
     "coding/claude/thedotmackclaude-mem A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.md",
-    "coding/claude/obrasuperpowers An agentic skills framework & software development methodology that works.md",
-    "coding/claude/forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.md"
+    "coding/claude/obrasuperpowers An agentic skills framework & software development methodology that works.md"
   ]
 }
