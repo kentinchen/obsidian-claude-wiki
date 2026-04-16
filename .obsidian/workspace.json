@@ -11,10 +11,14 @@
             "id": "828cfb7393556333",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ai/agents/msitarzewskiagency-agents.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "msitarzewskiagency-agents"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 467.5
+    "width": 314.5
   },
   "right": {
     "id": "7669b33b7b31028d",
@@ -150,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ai/agents/msitarzewskiagency-agents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "msitarzewskiagency-agents 的大纲"
             }
           },
           {
@@ -201,6 +206,9 @@
   },
   "active": "828cfb7393556333",
   "lastOpenFiles": [
+    "coding/skills/yizhiyanhua-aifireworks-tech-graph.md",
+    "ai/agents/msitarzewskiagency-agents.md",
+    "coding/skills",
     "ai/agents/lobehublobehub.md",
     "ai/model/shiyu-coderKronos Kronos A Foundation Model for the Language of Financial Markets.md",
     "ai/model/viratttai-hedge-fund An AI Hedge Fund Team.md",
@@ -225,7 +233,6 @@
     "ai/hermes",
     "coding",
     "ai",
-    "linux",
     "coding/claude/everything-claude-codeREADME.zh-CN.md at main.md",
     "coding/claude/anthropicsclaude-cookbooks A collection of notebooksrecipes showcasing some fun and effective ways of using Claude.md",
     "coding/claude/shanraisshanclaude-code-best-practice from vibe coding to agentic engineering - practice makes claude perfect.md",
@@ -234,8 +241,6 @@
     "coding/claude/forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.md",
     "2026-04-16.md",
     "田公子电子工程师.md",
-    "obsidian/Karpathy 式 AI 知识库搭建指南：让 Claude Code + Obsidian 成为你的第二大脑.md",
-    "obsidian/Obsidian CLI + Claude Code = 王炸组合.md",
-    "obsidian/从代码到知识：Andrej Karpathy 的 LLM 知识库方法论.md"
+    "obsidian/Karpathy 式 AI 知识库搭建指南：让 Claude Code + Obsidian 成为你的第二大脑.md"
   ]
 }
