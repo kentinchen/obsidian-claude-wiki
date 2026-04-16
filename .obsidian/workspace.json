@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3abc2206850c81ca",
+        "id": "b047e1cbee494b7d",
         "type": "tabs",
         "children": [
           {
-            "id": "49ef7f3da81ba004",
+            "id": "60f3828ff1c8f983",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/openclaw/kevinhoclawfeed ClawFeed.md",
+                "file": "ai/agc/antvisInfographic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kevinhoclawfeed ClawFeed"
+              "title": "antvisInfographic"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/openclaw/kevinhoclawfeed ClawFeed.md",
+                "file": "ai/agc/antvisInfographic.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "kevinhoclawfeed ClawFeed 的大纲"
+              "title": "antvisInfographic 的大纲"
             }
           },
           {
@@ -206,9 +206,25 @@
   },
   "active": "a5db0b3bbacdccae",
   "lastOpenFiles": [
+    "ai/agc",
+    "coding/BloopAIvibe-kanban.md",
+    "ai/agc/antvisInfographic.md",
+    "ai/agents/HKUDSDeepTuto.md",
+    "web/nocodbnocodb.md",
+    "ai/workflow/n8n-ion8n.md",
+    "web",
+    "ai/workflow",
+    "ai/manus/FoundationAgentsOpenManus.md",
+    "ai/manus",
+    "coding/ui/nextlevelbuilderui-ux-pro-max-skill.md",
+    "ai/openclaw/HKUDSClawWork ClawWork.md",
+    "ai/openclaw/VoltAgentawesome-openclaw-skills.md",
     "ai/openclaw/PanniantongAgent-Reach.md",
-    "ai/openclaw/kevinhoclawfeed ClawFeed.md",
+    "ai/openclaw/openclawopenclaw.md",
     "ai/openclaw/OpenClaw Skill 安装与管理指南.md",
+    "ai/openclaw/kevinhoclawfeed ClawFeed.md",
+    "ai/mcp/supercorp-aisupergateway.md",
+    "ai/mcp/punkpeyeawesome-mcp-servers.md",
     "ai/openclaw/模力方舟moark-skills Moark Skills.md",
     "coding/skills/SimoneAvogadroandroid-reverse-engineering-skill.md",
     "coding/skills/slavingiaskills Claude Code skills.md",
@@ -221,26 +237,10 @@
     "coding/spec",
     "ai/mcp/SpideXDmcp-swarm.md",
     "ai/mcp/servers.md",
-    "ai/engine/lmstudio-ailms LM Studio CLI.md",
     "ai/engine",
-    "ai/agents/langgeniusdify.md",
-    "ai/agents/ruvnetruflo.md",
-    "ai/agents/msitarzewskiagency-agents.md",
     "coding/skills",
-    "ai/agents/lobehublobehub.md",
-    "ai/model/shiyu-coderKronos Kronos A Foundation Model for the Language of Financial Markets.md",
-    "ai/model/viratttai-hedge-fund An AI Hedge Fund Team.md",
-    "ai/agents/obrasuperpowers.md",
-    "ai/agents/multica-aimultica.md",
-    "coding/tmux.md",
-    "ai/openclaw/openclawopenclaw.md",
-    "ai/hermes/NousResearchhermes-agent The agent that grows with you.md",
-    "coding/claudcode/anthropicsclaude-cookbooks.md",
     "ai/model",
     "coding/opencode",
-    "coding/claudcode",
-    "ai/mcp",
-    "ai/agents",
-    "ai/openclaw"
+    "coding/claudcode"
   ]
 }
