@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d57f395761d33cf0",
+        "id": "fc804e2870554064",
         "type": "tabs",
         "children": [
           {
-            "id": "11c7aee64eef6064",
+            "id": "b3912580743e9bac",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -199,8 +199,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76993eb88728c799",
+  "active": "b3912580743e9bac",
   "lastOpenFiles": [
+    "ai/mcp/SpideXDmcp-swarm.md",
+    "ai/mcp/servers.md",
     "ai/engine/lmstudio-ailms LM Studio CLI.md",
     "ai/engine",
     "ai/agents/langgeniusdify.md",
@@ -234,7 +236,6 @@
     "coding/claude/everything-claude-codeREADME.zh-CN.md at main.md",
     "coding/claude/anthropicsclaude-cookbooks A collection of notebooksrecipes showcasing some fun and effective ways of using Claude.md",
     "coding/claude/shanraisshanclaude-code-best-practice from vibe coding to agentic engineering - practice makes claude perfect.md",
-    "coding/claude/thedotmackclaude-mem A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.md",
-    "coding/claude/obrasuperpowers An agentic skills framework & software development methodology that works.md"
+    "coding/claude/thedotmackclaude-mem A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.md"
   ]
 }
