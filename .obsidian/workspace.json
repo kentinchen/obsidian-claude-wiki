@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5000ac005d6a1d9d",
+        "id": "c40d015dee225807",
         "type": "tabs",
         "children": [
           {
-            "id": "b760f92873b911ba",
+            "id": "5cb9c466d5e2c71d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/Karpathy 式 AI 知识库搭建指南：让 Claude Code + Obsidian 成为你的第二大脑.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Karpathy 式 AI 知识库搭建指南：让 Claude Code + Obsidian 成为你的第二大脑"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 297.5
   },
   "right": {
     "id": "7669b33b7b31028d",
@@ -173,11 +169,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 491.5
+    "width": 377.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,9 +188,26 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b760f92873b911ba",
+  "active": "5cb9c466d5e2c71d",
   "lastOpenFiles": [
-    "claude/forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.md",
+    "ai/mcp/DayuanJiangnext-ai-draw-io A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.md",
+    "ai/openclaw/openclawopenclaw Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞.md",
+    "coding/opencode/code-yeongyuoh-my-openagent omo; the best agent harness.md",
+    "ai/agents",
+    "ai/mcp",
+    "coding/engineering",
+    "coding/claude/everything-claude-codeREADME.zh-CN.md at main.md",
+    "coding/opencode",
+    "coding/claude/anthropicsclaude-cookbooks A collection of notebooksrecipes showcasing some fun and effective ways of using Claude.md",
+    "coding/claude/shanraisshanclaude-code-best-practice from vibe coding to agentic engineering - practice makes claude perfect.md",
+    "ai/agents/multica-aimultica The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.md",
+    "ai/hermes/NousResearchhermes-agent The agent that grows with you.md",
+    "coding/claude/thedotmackclaude-mem A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.md",
+    "coding/claude/obrasuperpowers An agentic skills framework & software development methodology that works.md",
+    "coding/claude/forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.md",
+    "2026-04-16.md",
+    "田公子电子工程师.md",
+    "未命名.base",
     "obsidian/Karpathy 式 AI 知识库搭建指南：让 Claude Code + Obsidian 成为你的第二大脑.md",
     "ai/hermes",
     "ai/openclaw",
@@ -207,14 +220,9 @@
     "obsidian/Obsidian Web Clipper 深度使用笔记：Deepseek 智能加持，微信公众号等素材高效管理.md",
     "obsidian/YishenTuclaudian An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault.md",
     "proxy",
-    "coding/harness",
-    "coding/context",
-    "coding/vibe",
-    "coding",
+    "coding/engineering/harness",
+    "coding/engineering/context",
     "obsidian/Karpathy 的 LLM 知识库：用大模型编译你的个人 Wiki 1.md",
-    "docker",
-    "cloud",
-    "android",
     "obsidian/未命名.md"
   ]
 }
