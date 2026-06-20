@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f28e7b567d0767db",
+        "id": "9b546805701d416c",
         "type": "tabs",
         "children": [
           {
-            "id": "cc4404cf6be1c3bc",
+            "id": "59f4e28ae4b6447c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -200,8 +200,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76993eb88728c799",
+  "active": "59f4e28ae4b6447c",
   "lastOpenFiles": [
+    "scm/github.md",
+    "scm",
+    "win",
+    "cli/psmuxpsmux Tmux on Windows Powershell - tmux for PowerShell, Windows Terminal, cmd.exe. Includes psmux, pmux, and tmux commands. This is native Powershell Tmux designed for Windows in Rust 🦀.md",
+    "linux/Buildroot - Making Embedded Linux Easy.md",
+    "cli",
+    "linux/Untitled.md",
+    "ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
+    "ai/wiki",
     "linux/wsl/Running Ubuntu 26.04 on WSL A Bleeding Edge Guide.md",
     "proxy/SagerNetsing-box The universal proxy platform.md",
     "linux/wsl",
@@ -229,14 +238,6 @@
     "coding/spec/bmad-code-org-BMAD-METHOD.md",
     "otel",
     "ai/agc/microsoft-call-center-ai.md",
-    "security/chaitin-SafeLine.md",
-    "coding/spec/coleam00-context-engineering-intro.md",
-    "security",
-    "lang/cpp/cpp-for-yourself-lectures-and-homeworks.md",
-    "lang/cpp",
-    "ai/model/QuantAgent.md",
-    "lang",
-    "ai/agc/microsoft-AIOpsLab.md",
-    "odp"
+    "security/chaitin-SafeLine.md"
   ]
 }
