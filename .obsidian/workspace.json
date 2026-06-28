@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9b546805701d416c",
+        "id": "5dea1ead901a19b0",
         "type": "tabs",
         "children": [
           {
-            "id": "59f4e28ae4b6447c",
+            "id": "1c35773546a9f528",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -200,8 +200,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59f4e28ae4b6447c",
+  "active": "1c35773546a9f528",
   "lastOpenFiles": [
+    "ai/model/从零部署本地大模型｜LMStudio傻瓜式上手+llama.cpp命令行教程，隐私离线双保障.md",
+    "ai/model/microsoft-qlib.md",
+    "ai/model/QuantAgent.md",
+    "Clippings",
     "scm/github.md",
     "scm",
     "win",
@@ -231,13 +235,9 @@
     "ops/kestra-io-kestra.md",
     "ops",
     "ai/agents/microsoft-autogen.md",
-    "ai/model/microsoft-qlib.md",
     "ai/agents/jd-opensource-joyagent-jdgenie.md",
     "security/jpillora-chisel.md",
     "otel/SigNoz-signoz.md",
-    "coding/spec/bmad-code-org-BMAD-METHOD.md",
-    "otel",
-    "ai/agc/microsoft-call-center-ai.md",
-    "security/chaitin-SafeLine.md"
+    "coding/spec/bmad-code-org-BMAD-METHOD.md"
   ]
 }
