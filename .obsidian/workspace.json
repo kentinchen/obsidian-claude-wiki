@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5dea1ead901a19b0",
+        "id": "e130864df7f367fb",
         "type": "tabs",
         "children": [
           {
-            "id": "1c35773546a9f528",
+            "id": "d172f00640157c78",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 285.5
   },
   "right": {
     "id": "7669b33b7b31028d",
@@ -200,8 +200,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c35773546a9f528",
+  "active": "76993eb88728c799",
   "lastOpenFiles": [
+    "coding/env/Development containers.md",
+    "coding/env/devbox.md",
+    "coding/env",
+    "coding/env/devenv.com使用方法.md",
     "ai/model/从零部署本地大模型｜LMStudio傻瓜式上手+llama.cpp命令行教程，隐私离线双保障.md",
     "ai/model/microsoft-qlib.md",
     "ai/model/QuantAgent.md",
@@ -233,11 +237,7 @@
     "ops/WeOps-Lab-OpsPilot.md",
     "cmdb",
     "ops/kestra-io-kestra.md",
-    "ops",
     "ai/agents/microsoft-autogen.md",
-    "ai/agents/jd-opensource-joyagent-jdgenie.md",
-    "security/jpillora-chisel.md",
-    "otel/SigNoz-signoz.md",
-    "coding/spec/bmad-code-org-BMAD-METHOD.md"
+    "ai/agents/jd-opensource-joyagent-jdgenie.md"
   ]
 }
