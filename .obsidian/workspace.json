@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e130864df7f367fb",
+        "id": "e516f41904f8a41c",
         "type": "tabs",
         "children": [
           {
-            "id": "d172f00640157c78",
+            "id": "7f83b14a0393ab63",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "coding/cdp/cdp-proxy启动.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "cdp-proxy启动"
             }
           }
         ]
@@ -200,13 +204,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76993eb88728c799",
+  "active": "7f83b14a0393ab63",
   "lastOpenFiles": [
-    "coding/env/Development containers.md",
+    "coding/cdp/深入浅出 CDP (Chrome DevTools Protocol).md",
+    "coding/cdp/cdp-proxy启动.md",
+    "coding/cdp/谷歌浏览器如何使用Chrome DevTools Protocol (CDP) 远程控制浏览器【高级自动化】-PHP中文网.md",
+    "lang/flutter/即将开源  2亿用户背后的Flutter应用框架Fish Redux.md",
+    "coding/cdp",
+    "Clippings/巧用Chrome-CDP远程调用Debug突破JS逆向.md",
+    "lang/flutter",
+    "coding/claudcode/lm-studio+ cc switch.md",
+    "Pasted image 20260628213107.png",
+    "Pasted image 20260628213043.png",
+    "Pasted image 20260628212745.png",
+    "ai/model/从零部署本地大模型｜LMStudio傻瓜式上手+llama.cpp命令行教程，隐私离线双保障.md",
     "coding/env/devbox.md",
+    "coding/env/Development containers.md",
     "coding/env",
     "coding/env/devenv.com使用方法.md",
-    "ai/model/从零部署本地大模型｜LMStudio傻瓜式上手+llama.cpp命令行教程，隐私离线双保障.md",
     "ai/model/microsoft-qlib.md",
     "ai/model/QuantAgent.md",
     "Clippings",
@@ -230,14 +245,6 @@
     "security/bepass-org-oblivion-desktop.md",
     "ops/nornir-automation-nornir.md",
     "di/apache-streampark.md",
-    "di/airbytehq-airbyte.md",
-    "di/alldatacenter-alldata.md",
-    "cmdb/apachegravitino World's most powerful open data catalog for building a high-performance, geo-distributed and federated metadata lake.md",
-    "di",
-    "ops/WeOps-Lab-OpsPilot.md",
-    "cmdb",
-    "ops/kestra-io-kestra.md",
-    "ai/agents/microsoft-autogen.md",
-    "ai/agents/jd-opensource-joyagent-jdgenie.md"
+    "di/airbytehq-airbyte.md"
   ]
 }
