@@ -22,7 +22,7 @@
     Chrome 默认阻止同时运行多个实例，新启动的调试实例可能无法绑定端口。确保关闭所有 Chrome 进程后再启动调试实例 [![CSDN](https://www.bing.com/th?id=ODF.XgN2n5Bhof8syOMYSfYpGg)CSDN](https://ask.csdn.net/questions/8730243)。
     
 4. **浏览器扩展或安全软件干扰**  
-    某些扩展或防火墙可能拦截调试端口。尝试禁用扩展或临时关闭安全软件，再启动调试模式 [![博客园](https://www.bing.com/th?id=ODF.J6leVzKhepVCqn16LLjyWg)博客园](https://www.cnblogs.com/taohuaya/p/16193713.html)。
+    某些扩展或防火墙可能拦截调试端口。尝试禁用扩展或临时关闭安全软件，再启动调试模式
     
 5. **自动化工具配置问题**  
     使用 Selenium、Puppeteer 或 OpenClaw 时，需要确保客户端指向正确的调试端口，并使用临时用户数据目录。例如 OpenClaw 配置中：
@@ -45,6 +45,6 @@ chrome.exe --remote-debugging-port=9222 --remote-allow-origins="*" --user-data-d
 
 ## 验证端口是否生效
 
-访问 `http://localhost:9222/json/version`，若返回 JSON 信息，说明远程调试端口已成功开启 [![博客园](https://www.bing.com/th?id=ODF.J6leVzKhepVCqn16LLjyWg)博客园](https://www.cnblogs.com/taohuaya/p/16193713.html)。
+访问 `http://localhost:9222/json/version`，若返回 JSON 信息，说明远程调试端口已成功开启 
 
 通过以上步骤，通常可以解决 Chrome 远程调试端口无效的问题，包括端口占用、用户数据目录限制、扩展干扰及自动化工具配置错误等。

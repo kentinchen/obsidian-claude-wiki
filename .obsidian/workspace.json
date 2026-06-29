@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e516f41904f8a41c",
+        "id": "60909b9aff63bcf1",
         "type": "tabs",
         "children": [
           {
-            "id": "7f83b14a0393ab63",
+            "id": "949eedcb35a96aca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "coding/cdp/cdp-proxy启动.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "cdp-proxy启动"
+              "title": "新标签页"
             }
           }
         ]
@@ -204,10 +200,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f83b14a0393ab63",
+  "active": "76993eb88728c799",
   "lastOpenFiles": [
-    "coding/cdp/深入浅出 CDP (Chrome DevTools Protocol).md",
+    "coding/claudcode/Claude Code npm 安装废弃了？新版安装姿势 + 踩坑指南.md",
     "coding/cdp/cdp-proxy启动.md",
+    "coding/cdp/深入浅出 CDP (Chrome DevTools Protocol).md",
     "coding/cdp/谷歌浏览器如何使用Chrome DevTools Protocol (CDP) 远程控制浏览器【高级自动化】-PHP中文网.md",
     "lang/flutter/即将开源  2亿用户背后的Flutter应用框架Fish Redux.md",
     "coding/cdp",
@@ -244,7 +241,6 @@
     "api",
     "security/bepass-org-oblivion-desktop.md",
     "ops/nornir-automation-nornir.md",
-    "di/apache-streampark.md",
-    "di/airbytehq-airbyte.md"
+    "di/apache-streampark.md"
   ]
 }
