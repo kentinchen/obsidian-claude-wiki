@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "60909b9aff63bcf1",
+        "id": "c88adfca9909c8e3",
         "type": "tabs",
         "children": [
           {
-            "id": "949eedcb35a96aca",
+            "id": "5503ef409721e2cb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ai/hermes/国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步"
             }
           }
         ]
@@ -200,8 +204,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76993eb88728c799",
+  "active": "5503ef409721e2cb",
   "lastOpenFiles": [
+    "ai/hermes/国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步.md",
+    "proxy/安装说明  V2Fly中文站.md",
+    "coding/claudcode/Claude Desktop Windows版本国内网络环境完全&quot;离线&quot;安装方法.md",
     "coding/claudcode/Claude Code npm 安装废弃了？新版安装姿势 + 踩坑指南.md",
     "coding/cdp/cdp-proxy启动.md",
     "coding/cdp/深入浅出 CDP (Chrome DevTools Protocol).md",
@@ -238,9 +245,6 @@
     "proxy/jpillorachisel A fast TCPUDP tunnel over HTTP.md",
     "api/public-apis-public-apis.md",
     "k8s/microsoftretina eBPF distributed networking observability tool for Kubernetes.md",
-    "api",
-    "security/bepass-org-oblivion-desktop.md",
-    "ops/nornir-automation-nornir.md",
-    "di/apache-streampark.md"
+    "api"
   ]
 }

@@ -125,6 +125,7 @@ powershell
 
 ```
 winget install Anthropic.ClaudeCode
+winget install Anthropic.ClaudeCode --proxy http://127.0.0.1:10808
 ```
 
 和 Homebrew 一样，需要手动升级： `winget upgrade Anthropic.ClaudeCode` 。
