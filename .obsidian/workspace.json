@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c88adfca9909c8e3",
+        "id": "6bca17b030a9fc7e",
         "type": "tabs",
         "children": [
           {
-            "id": "5503ef409721e2cb",
+            "id": "8dc5425cf97d6ad0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/hermes/国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步.md",
+                "file": "ai/model/tashfeenahmedfreellmapi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步"
+              "title": "tashfeenahmedfreellmapi"
             }
           }
         ]
@@ -204,11 +204,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5503ef409721e2cb",
+  "active": "76993eb88728c799",
   "lastOpenFiles": [
+    "ai/model/tashfeenahmedfreellmapi.md",
+    "ai/hermes/手把手教你安装 Hermes Agent，接入OpenRouter 免费模型，IM消息集成 - 苏米客.md",
     "ai/hermes/国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步.md",
-    "proxy/安装说明  V2Fly中文站.md",
+    "coding/claudcode/Claude Code + LM Studio + CC-Switch 本地自动化编程部署指南 - hey99 知识搜索引擎.md",
     "coding/claudcode/Claude Desktop Windows版本国内网络环境完全&quot;离线&quot;安装方法.md",
+    "ai/model/从零部署本地大模型｜LMStudio傻瓜式上手+llama.cpp命令行教程，隐私离线双保障.md",
+    "proxy/Clash Verge Rev使用教程.md",
+    "proxy/安装说明  V2Fly中文站.md",
     "coding/claudcode/Claude Code npm 安装废弃了？新版安装姿势 + 踩坑指南.md",
     "coding/cdp/cdp-proxy启动.md",
     "coding/cdp/深入浅出 CDP (Chrome DevTools Protocol).md",
@@ -221,7 +226,6 @@
     "Pasted image 20260628213107.png",
     "Pasted image 20260628213043.png",
     "Pasted image 20260628212745.png",
-    "ai/model/从零部署本地大模型｜LMStudio傻瓜式上手+llama.cpp命令行教程，隐私离线双保障.md",
     "coding/env/devbox.md",
     "coding/env/Development containers.md",
     "coding/env",
@@ -241,10 +245,6 @@
     "linux/wsl/Running Ubuntu 26.04 on WSL A Bleeding Edge Guide.md",
     "proxy/SagerNetsing-box The universal proxy platform.md",
     "linux/wsl",
-    "k8s/pixie-io-pixie.md",
-    "proxy/jpillorachisel A fast TCPUDP tunnel over HTTP.md",
-    "api/public-apis-public-apis.md",
-    "k8s/microsoftretina eBPF distributed networking observability tool for Kubernetes.md",
     "api"
   ]
 }
