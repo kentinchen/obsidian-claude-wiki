@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3ba0110a5c922d84",
+        "id": "9d3ccaf26abaefe1",
         "type": "tabs",
         "children": [
           {
-            "id": "569ca452a6319f2f",
+            "id": "38368cd8d4bfa24a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -200,8 +200,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5db0b3bbacdccae",
+  "active": "76993eb88728c799",
   "lastOpenFiles": [
+    "proxy/haad proxychains.md",
     "ai/model/tashfeenahmedfreellmapi.md",
     "ai/hermes/手把手教你安装 Hermes Agent，接入OpenRouter 免费模型，IM消息集成 - 苏米客.md",
     "ai/hermes/国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步.md",
@@ -239,7 +240,6 @@
     "ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "ai/wiki",
     "linux/wsl/Running Ubuntu 26.04 on WSL A Bleeding Edge Guide.md",
-    "proxy/SagerNetsing-box The universal proxy platform.md",
     "linux/wsl",
     "api"
   ]
