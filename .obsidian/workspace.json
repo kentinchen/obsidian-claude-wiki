@@ -11,10 +11,14 @@
             "id": "f7948420a55ba6a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "环境/windows本地.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "windows本地"
             }
           }
         ]
@@ -36,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "alphabeticalReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -202,6 +206,8 @@
   },
   "active": "f7948420a55ba6a5",
   "lastOpenFiles": [
+    "环境/windows本地.md",
+    "环境",
     "coding/claudcode/Claude Desktop Windows版本国内网络环境完全&quot;离线&quot;安装方法.md",
     "coding/claudcode/lm-studio+ cc switch.md",
     "Pasted image 20260628213107.png",
@@ -239,7 +245,6 @@
     "cli",
     "ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "ai/wiki",
-    "linux/wsl",
-    "api"
+    "linux/wsl"
   ]
 }
