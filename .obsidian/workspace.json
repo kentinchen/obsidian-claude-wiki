@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9d3ccaf26abaefe1",
+        "id": "ea5752dd6d88a3a4",
         "type": "tabs",
         "children": [
           {
-            "id": "38368cd8d4bfa24a",
+            "id": "f7948420a55ba6a5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -200,15 +200,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76993eb88728c799",
+  "active": "f7948420a55ba6a5",
   "lastOpenFiles": [
+    "coding/claudcode/Claude Desktop Windows版本国内网络环境完全&quot;离线&quot;安装方法.md",
+    "coding/claudcode/lm-studio+ cc switch.md",
+    "Pasted image 20260628213107.png",
+    "Pasted image 20260628212745.png",
+    "coding/claudcode/Claude Code + LM Studio + CC-Switch 本地自动化编程部署指南 - hey99 知识搜索引擎.md",
+    "ai/model/从零部署本地大模型｜LMStudio傻瓜式上手+llama.cpp命令行教程，隐私离线双保障.md",
+    "Pasted image 20260628213043.png",
+    "ai/hermes/30个神级HermesAgent插件曝光.md",
     "proxy/haad proxychains.md",
     "ai/model/tashfeenahmedfreellmapi.md",
     "ai/hermes/手把手教你安装 Hermes Agent，接入OpenRouter 免费模型，IM消息集成 - 苏米客.md",
     "ai/hermes/国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步.md",
-    "coding/claudcode/Claude Code + LM Studio + CC-Switch 本地自动化编程部署指南 - hey99 知识搜索引擎.md",
-    "coding/claudcode/Claude Desktop Windows版本国内网络环境完全&quot;离线&quot;安装方法.md",
-    "ai/model/从零部署本地大模型｜LMStudio傻瓜式上手+llama.cpp命令行教程，隐私离线双保障.md",
     "proxy/Clash Verge Rev使用教程.md",
     "proxy/安装说明  V2Fly中文站.md",
     "coding/claudcode/Claude Code npm 安装废弃了？新版安装姿势 + 踩坑指南.md",
@@ -219,10 +224,6 @@
     "coding/cdp",
     "Clippings/巧用Chrome-CDP远程调用Debug突破JS逆向.md",
     "lang/flutter",
-    "coding/claudcode/lm-studio+ cc switch.md",
-    "Pasted image 20260628213107.png",
-    "Pasted image 20260628213043.png",
-    "Pasted image 20260628212745.png",
     "coding/env/devbox.md",
     "coding/env/Development containers.md",
     "coding/env",
@@ -236,10 +237,8 @@
     "cli/psmuxpsmux Tmux on Windows Powershell - tmux for PowerShell, Windows Terminal, cmd.exe. Includes psmux, pmux, and tmux commands. This is native Powershell Tmux designed for Windows in Rust 🦀.md",
     "linux/Buildroot - Making Embedded Linux Easy.md",
     "cli",
-    "linux/Untitled.md",
     "ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "ai/wiki",
-    "linux/wsl/Running Ubuntu 26.04 on WSL A Bleeding Edge Guide.md",
     "linux/wsl",
     "api"
   ]
