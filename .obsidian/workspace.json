@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ea5752dd6d88a3a4",
+        "id": "61f0110e0c1c9dc4",
         "type": "tabs",
         "children": [
           {
-            "id": "f7948420a55ba6a5",
+            "id": "aa504ef77fa2150c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -204,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f7948420a55ba6a5",
+  "active": "a5db0b3bbacdccae",
   "lastOpenFiles": [
     "环境/windows本地.md",
     "环境",
