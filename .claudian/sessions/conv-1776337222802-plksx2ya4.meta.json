@@ -1,11 +1,11 @@
 {
   "id": "conv-1776337222802-plksx2ya4",
   "providerId": "claude",
-  "title": "/plugin install andrej-karpathy-skills@karpathy-sk...",
+  "title": "抓取https://cloud",
   "titleGenerationStatus": "failed",
   "createdAt": 1776337222807,
-  "updatedAt": 1776341937273,
-  "lastResponseAt": 1776341937273,
+  "updatedAt": 1783219059885,
+  "lastResponseAt": 1783219059885,
   "sessionId": "1f8e6a11-a957-4529-b060-f24004e1485e",
   "providerState": {
     "providerSessionId": "1f8e6a11-a957-4529-b060-f24004e1485e",
