@@ -1,5 +1,7 @@
 1、安装LiteMonitor、7Zip、Bun
-2、安装Clash Verge、V2ray、cloudflared、CPolar、privoxy、proxychains
+2、安装Clash Verge、V2ray、cloudflared、CPolar、privoxy、proxychains、Loris Tunnel、SwitchHosts
+	%USERPROFILE%\.proxychains\proxychains.conf
+	C:\ProgramData\Proxychains\proxychains.conf
 3、安装NVIDIA App(驱动及SDK、CUDA)
 
 1、安装wlsc,wsl ui

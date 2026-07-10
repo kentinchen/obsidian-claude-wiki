@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c81c2702aee94a5f",
+        "id": "d4cd6c063cf0cfbc",
         "type": "tabs",
         "children": [
           {
-            "id": "550145ace1ea0205",
+            "id": "fa877dea151f9ac3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGENTS.md",
+                "file": "环境/windows本地.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "windows本地"
             }
           }
         ]
@@ -204,8 +204,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5db0b3bbacdccae",
+  "active": "fa877dea151f9ac3",
   "lastOpenFiles": [
+    "环境/wsl本地.md",
+    "环境/windows本地.md",
+    "AGENTS.md",
     "SOURCES/win",
     "SOURCES/web/nocodbnocodb.md",
     "SOURCES/web",
@@ -237,11 +240,8 @@
     "SOURCES/obsidian/Obsidian Web Clipper 深度使用笔记：Deepseek 智能加持，微信公众号等素材高效管理.md",
     "SOURCES/obsidian/Obsidian CLI + Claude Code = 王炸组合.md",
     "SOURCES/obsidian/Karpathy 的 LLM 知识库：用大模型编译你的个人 Wiki.md",
-    "SOURCES/obsidian/Karpathy 式 AI 知识库搭建指南：让 Claude Code + Obsidian 成为你的第二大脑.md",
     "SOURCES/obsidian",
-    "SOURCES/linux/wsl/Running Ubuntu 26.04 on WSL A Bleeding Edge Guide.md",
     "SOURCES/linux/wsl",
-    "SOURCES/linux",
     "SOURCES/ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "raw/ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "Pasted image 20260628213107.png",

@@ -19,3 +19,5 @@
 	      proxychains4 curl https://ip.sb
 	      pc curl https://ip.sb
 	      
+4、网络访问
+       netsh interface portproxy add v4tov4 listenport=<yourPortToForward> listenaddress=0.0.0.0 connectport=<yourPortToConnectToInWSL> connectaddress=(wsl hostname -I)

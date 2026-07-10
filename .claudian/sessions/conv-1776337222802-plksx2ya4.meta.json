@@ -1,11 +1,11 @@
 {
   "id": "conv-1776337222802-plksx2ya4",
   "providerId": "claude",
-  "title": "抓取https://cloud",
+  "title": "分析一下SOURCES/obsidian目录",
   "titleGenerationStatus": "failed",
   "createdAt": 1776337222807,
-  "updatedAt": 1783219059885,
-  "lastResponseAt": 1783219059885,
+  "updatedAt": 1783227030764,
+  "lastResponseAt": 1783227013051,
   "sessionId": "1f8e6a11-a957-4529-b060-f24004e1485e",
   "providerState": {
     "providerSessionId": "1f8e6a11-a957-4529-b060-f24004e1485e",
@@ -13,6 +13,7 @@
       "6547dd29-34fa-483e-82ab-895c538bdb63"
     ]
   },
+  "currentNote": "AGENTS.md",
   "usage": {
     "model": "nvidia/nemotron-3-super-120b-a12b:free",
     "inputTokens": 0,
