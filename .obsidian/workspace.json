@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d4cd6c063cf0cfbc",
+        "id": "b4b9d27576651662",
         "type": "tabs",
         "children": [
           {
-            "id": "fa877dea151f9ac3",
+            "id": "efc9370d7f808a97",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 207.5
   },
   "right": {
     "id": "7669b33b7b31028d",
@@ -204,10 +204,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa877dea151f9ac3",
+  "active": "efc9370d7f808a97",
   "lastOpenFiles": [
-    "环境/wsl本地.md",
     "环境/windows本地.md",
+    "SOURCES/coding/cdp/cdp-proxy启动.md",
+    "SOURCES/cmdb/apachegravitino World's most powerful open data catalog for building a high-performance, geo-distributed and federated metadata lake.md",
+    "SOURCES/ai/agc/microsoft-call-center-ai.md",
+    "环境/wsl本地.md",
     "AGENTS.md",
     "SOURCES/win",
     "SOURCES/web/nocodbnocodb.md",
@@ -237,9 +240,6 @@
     "SOURCES/obsidian/从代码到知识：Andrej Karpathy 的 LLM 知识库方法论.md",
     "SOURCES/obsidian/YishenTuclaudian An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault.md",
     "SOURCES/obsidian/Obsidian 接入 Claude 与国产大模型：让 AI 成为你的知识库协作者.md",
-    "SOURCES/obsidian/Obsidian Web Clipper 深度使用笔记：Deepseek 智能加持，微信公众号等素材高效管理.md",
-    "SOURCES/obsidian/Obsidian CLI + Claude Code = 王炸组合.md",
-    "SOURCES/obsidian/Karpathy 的 LLM 知识库：用大模型编译你的个人 Wiki.md",
     "SOURCES/obsidian",
     "SOURCES/linux/wsl",
     "SOURCES/ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
