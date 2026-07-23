@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "环境/resource/CC Switch配置.md",
+                "file": "环境/resource/hermes配置文件.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CC Switch配置"
+              "title": "hermes配置文件"
             }
           }
         ]
@@ -206,11 +206,12 @@
   },
   "active": "efc9370d7f808a97",
   "lastOpenFiles": [
+    "环境/resource/CC Switch配置.md",
+    "环境/resource/hermes配置文件.md",
     "环境/windows本地.md",
     "环境/resource/proxychains配置.md",
     "环境/resource/OmniRoute配置.md",
     "环境/resource/Clash Verge订阅.md",
-    "环境/resource/CC Switch配置.md",
     "环境/resource/CC 安装.md",
     "SOURCES/coding/cdp/cdp-proxy启动.md",
     "SOURCES/cmdb/apachegravitino World's most powerful open data catalog for building a high-performance, geo-distributed and federated metadata lake.md",
@@ -238,7 +239,6 @@
     "SOURCES/ops/nornir-automation-nornir.md",
     "SOURCES/ops/kestra-io-kestra.md",
     "SOURCES/ops",
-    "SOURCES/odp/OpenBB-financeOpenBB Financial data platform for analysts, quants and AI agents.md",
     "SOURCES/odp",
     "SOURCES/obsidian",
     "SOURCES/linux/wsl",
