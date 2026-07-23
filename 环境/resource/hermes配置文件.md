@@ -27,3 +27,7 @@ http://localhost:9119/sessions
 
 dingw3ri52mgr9e8grv3
 PV20HCTMoL5Kelx-N4YSU9ypK3VGmVNMRq3W1wdpgUzkKZ94EL-Jz1MzCG8l4jKg
+
+hermes gateway restart
+hermes gateway status
+Get-Content "$env:LOCALAPPDATA\hermes\logs\gateway.log" -Wait -Tail 5
