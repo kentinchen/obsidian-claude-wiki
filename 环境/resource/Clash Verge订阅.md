@@ -1,0 +1,1 @@
+clash verge: https://raw.githubusercontent.com/ovmvo/FreeSub/refs/heads/main/sub/permanent/mihomo.yaml

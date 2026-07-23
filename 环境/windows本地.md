@@ -1,7 +1,5 @@
 1、安装LiteMonitor、7Zip、Bun、UniGetUI
-2、安装Clash Verge、V2ray、cloudflared、Cpolar、privoxy、proxychains、Loris Tunnel、SwitchHosts、Easytier
-	%USERPROFILE%\.proxychains\proxychains.conf
-	C:\ProgramData\Proxychains\proxychains.conf
+2、安装Clash Verge、V2ray、cloudflared、cpolar、privoxy、proxychains、Loris Tunnel、SwitchHosts、Easytier
 3、安装NVIDIA App(驱动及SDK、CUDA)
 4、安装dapr、pytorch、tensorflow
 
@@ -30,3 +28,9 @@
 5、安装Agents(在CC Switch中图形安装，hermes) 
 6、配置agens、skills及mcp (wigolo、openSpace、drawio)
 7、安装mimic
+
+
+
+
+
+
