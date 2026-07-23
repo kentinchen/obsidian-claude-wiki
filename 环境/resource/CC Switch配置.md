@@ -14,6 +14,19 @@ hermes配置文件
   ]
 }
 
+{
+  "name": "omniroute",
+  "base_url": "http://localhost:20128/v1",
+  "api_key": "local",
+  "models": [
+    {
+      "id": "free",
+      "name": "free"
+    }
+  ]
+}
+
+
 claude code配置文件
 {
   "enabledPlugins": {

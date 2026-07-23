@@ -21,3 +21,9 @@ custom_providers:
       auto/chat:
         name: auto/chat
     model: auto/best-coding
+
+hermes dashboard
+http://localhost:9119/sessions
+
+dingw3ri52mgr9e8grv3
+PV20HCTMoL5Kelx-N4YSU9ypK3VGmVNMRq3W1wdpgUzkKZ94EL-Jz1MzCG8l4jKg
