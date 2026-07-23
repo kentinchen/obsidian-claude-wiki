@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "环境/windows本地.md",
+                "file": "环境/resource/CC Switch配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "windows本地"
+              "title": "CC Switch配置"
             }
           }
         ]
@@ -206,8 +206,8 @@
   },
   "active": "efc9370d7f808a97",
   "lastOpenFiles": [
-    "环境/resource/proxychains配置.md",
     "环境/windows本地.md",
+    "环境/resource/proxychains配置.md",
     "环境/resource/OmniRoute配置.md",
     "环境/resource/Clash Verge订阅.md",
     "环境/resource/CC Switch配置.md",
