@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "90a3b6b3cf0b2d9e",
+        "id": "2155ddcf9a50fb17",
         "type": "tabs",
         "children": [
           {
-            "id": "e6506594f613bcd5",
+            "id": "2affe0c80cae40c4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -200,12 +200,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76993eb88728c799",
+  "active": "2affe0c80cae40c4",
   "lastOpenFiles": [
-    "环境/resource/CC 安装.md",
     "环境/resource/hermes配置文件.md",
-    "环境/resource/OmniRoute配置.md",
+    "SOURCES/lang/python/ocr.md",
+    "SOURCES/lang/python",
     "环境/resource/CC Switch配置.md",
+    "环境/resource/CC 安装.md",
+    "环境/resource/OmniRoute配置.md",
     "环境/windows本地.md",
     "环境/resource/mimic.md",
     "环境/resource/proxychains配置.md",
@@ -233,11 +235,9 @@
     "SOURCES/otel/SigNoz-signoz.md",
     "SOURCES/otel",
     "SOURCES/ops/WeOps-Lab-OpsPilot.md",
-    "SOURCES/ops/nornir-automation-nornir.md",
     "SOURCES/ops",
     "SOURCES/odp",
     "SOURCES/obsidian",
-    "SOURCES/linux/wsl",
     "SOURCES/ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "raw/ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "Pasted image 20260628213107.png",

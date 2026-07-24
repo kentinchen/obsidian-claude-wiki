@@ -44,3 +44,4 @@ DINGTALK_HOME_CHANNEL_NAME=default
 DINGTALK_ALLOWED_USERS=*
 DINGTALK_ALLOW_ALL_USERS=true
 
+运行 `hermes gateway setup` → 在平台列表选 Weixin → 用微信手机端扫终端二维码 → 在手机上确认登录 → Hermes 自动保存 `account_id` / `token` / `base_url` → 配好 `WEIXIN_ACCOUNT_ID` → 运行 `hermes gateway`。走的是 iLink Bot API + HTTP 长轮询，不需要公网回调。
