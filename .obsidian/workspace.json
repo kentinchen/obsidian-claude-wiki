@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "719b1ebc2286f4ba",
+        "id": "90a3b6b3cf0b2d9e",
         "type": "tabs",
         "children": [
           {
-            "id": "3a7ca40a2f01169c",
+            "id": "e6506594f613bcd5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "环境/resource/CC Switch配置.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CC Switch配置"
+              "title": "新标签页"
             }
           }
         ]
@@ -204,7 +200,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5db0b3bbacdccae",
+  "active": "76993eb88728c799",
   "lastOpenFiles": [
     "环境/resource/CC 安装.md",
     "环境/resource/hermes配置文件.md",
