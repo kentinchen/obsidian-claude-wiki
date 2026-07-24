@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2155ddcf9a50fb17",
+        "id": "9ec70bf39f86ba62",
         "type": "tabs",
         "children": [
           {
-            "id": "2affe0c80cae40c4",
+            "id": "f360bae0c3f6398e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -200,15 +200,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2affe0c80cae40c4",
+  "active": "f360bae0c3f6398e",
   "lastOpenFiles": [
+    "环境/resource/grok.md",
+    "环境/windows本地.md",
     "环境/resource/hermes配置文件.md",
     "SOURCES/lang/python/ocr.md",
     "SOURCES/lang/python",
     "环境/resource/CC Switch配置.md",
     "环境/resource/CC 安装.md",
     "环境/resource/OmniRoute配置.md",
-    "环境/windows本地.md",
     "环境/resource/mimic.md",
     "环境/resource/proxychains配置.md",
     "环境/resource/Clash Verge订阅.md",
@@ -234,7 +235,6 @@
     "SOURCES/proxy",
     "SOURCES/otel/SigNoz-signoz.md",
     "SOURCES/otel",
-    "SOURCES/ops/WeOps-Lab-OpsPilot.md",
     "SOURCES/ops",
     "SOURCES/odp",
     "SOURCES/obsidian",

@@ -45,3 +45,18 @@ DINGTALK_ALLOWED_USERS=*
 DINGTALK_ALLOW_ALL_USERS=true
 
 运行 `hermes gateway setup` → 在平台列表选 Weixin → 用微信手机端扫终端二维码 → 在手机上确认登录 → Hermes 自动保存 `account_id` / `token` / `base_url` → 配好 `WEIXIN_ACCOUNT_ID` → 运行 `hermes gateway`。走的是 iLink Bot API + HTTP 长轮询，不需要公网回调。
+
+	hermes config                 View configuration
+    hermes config edit            Edit config in $EDITOR
+    hermes config set model gpt-4 Set a config value
+    hermes logout                 Clear stored authentication
+    hermes auth add <provider>    Add a pooled credential
+    hermes auth list              List pooled credentials
+    hermes auth remove <p> <t>    Remove pooled credential by index, id, or label
+    hermes auth reset <provider>  Clear exhaustion status for a provider
+    hermes logs                   View agent.log (last 50 lines)
+    hermes logs -f                Follow agent.log in real time
+    hermes logs errors            View errors.log
+    hermes logs --since 1h        Lines from the last hour
+    hermes update                 Update to latest version
+    hermes dashboard              Start web UI dashboard (port 9119)
