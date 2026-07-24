@@ -29,7 +29,10 @@
 6、配置agens、skills及mcp (wigolo、openSpace、drawio)
 7、安装mimic
 
-
+关闭反病毒
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 1 /t REG_DWORD /f
+打开反病毒
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 0 /t REG_DWORD /f   
 
 
 

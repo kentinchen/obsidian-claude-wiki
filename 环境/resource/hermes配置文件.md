@@ -25,9 +25,22 @@ custom_providers:
 hermes dashboard
 http://localhost:9119/sessions
 
-dingw3ri52mgr9e8grv3
-PV20HCTMoL5Kelx-N4YSU9ypK3VGmVNMRq3W1wdpgUzkKZ94EL-Jz1MzCG8l4jKg
-
+hermes config get dingtalk
+hermes gateway setup
 hermes gateway restart
 hermes gateway status
 Get-Content "$env:LOCALAPPDATA\hermes\logs\gateway.log" -Wait -Tail 5
+
+C:\Users\Administrator\AppData\Local\hermes\.env
+FEISHU_APP_ID=cli_aadd2183ce38dcc8
+FEISHU_APP_SECRET=Yt1Rs0XswcvwjjFbCiFpTcbufMoFJieE
+FEISHU_ALLOW_ALL_USERS=true
+FEISHU_DOMAIN=feishu
+FEISHU_HOME_CHANNEL_NAME=hermes
+
+DINGTALK_CLIENT_ID=dingmdyg7qt5se5y5cbc
+DINGTALK_CLIENT_SECRET=J8e2GSS-9PJxeEvXf9fctx6f5ErtIxt1p3_CmMgZ_H8VAox-9KOKz0Rg-77tjqkU
+DINGTALK_HOME_CHANNEL_NAME=default
+DINGTALK_ALLOWED_USERS=*
+DINGTALK_ALLOW_ALL_USERS=true
+

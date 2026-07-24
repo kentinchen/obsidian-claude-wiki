@@ -26,6 +26,17 @@ hermes配置文件
   ]
 }
 
+{
+  "name": "",
+  "base_url": "http://172.62.130.33:8080/v1",
+  "api_key": "sk-3eda773f71924d64b8fb9eb772d4ed07",
+  "models": [
+    {
+      "id": "Qwen3.6-27B",
+      "name": "Qwen3.6-27B"
+    }
+  ]
+}
 
 claude code配置文件
 {
