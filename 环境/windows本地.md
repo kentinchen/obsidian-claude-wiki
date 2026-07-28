@@ -1,4 +1,4 @@
-1、安装LiteMonitor、7Zip、Bun、UniGetUI
+1、安装LiteMonitor、7Zip、Bun、UniGetUI、FlyEnv
 2、安装Clash Verge、V2ray、cloudflared、cpolar、privoxy、proxychains、Loris Tunnel、SwitchHosts、Easytier
 3、安装NVIDIA App(驱动及SDK、CUDA)
 4、安装dapr、pytorch、tensorflow
