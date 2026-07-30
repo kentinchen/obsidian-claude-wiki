@@ -5,7 +5,7 @@
 
 1、安装wlsc、wsl ui
 2、安装docker desktop、virtual box、vagrant
-3、安装minikube、helm、kustomize、kubectl
+3、安装minikube、helm、kustomize、kubectl、Kagent、Istio
 
 1、安装MobaXterm、 tmux、psmux、rmux、winscp、xTerminal
 2、安装Obsidian、Lens、Tolaria
@@ -26,7 +26,7 @@
 4、Trae、Trae worker、Cherry Studio
 5、安装Agents(在CC Switch中图形安装，hermes、claude code、opencode) 
 6、配置agens、skills及mcp (wigolo、openSpace、drawio)
-7、安装mimic
+7、安装buzz、mimic、supabase
 
 关闭反病毒
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 1 /t REG_DWORD /f
