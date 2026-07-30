@@ -38,6 +38,7 @@ xc_hlw_生产环境      ACK K8S集群
 	 安装k8s服务：
 curl -C - -LO --retry 10 https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64  
 sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64 && minikube version    
+source /opt/proxy.sh && minikube start --embed-certs --force
 curl -C - -LO --retry 10 "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"  
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl && rm -f kubectl && kubectl version --client    
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash  && helm version    
@@ -52,5 +53,27 @@ helm install kagent oci://ghcr.io/kagent-dev/kagent/helm/kagent \
 --set providers.default=ollama \
 --set providers.ollama.baseUrl=https://openrouter.ai/api/v1 \
 --set providers.ollama.apiKey=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
-	  
+
+//kagent dashboard
+kubectl port-forward -n kagent service/kagent-ui 8082:8080
+netsh interface portproxy add v4tov4 listenport=8082 listenaddress=0.0.0.0 connectport=8082 connectaddress=(wsl hostname -I)
+
+kubectl create secret generic kagent-openai -n kagent --from-literal=OPENAI_API_KEY="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"
+kubectl apply -f- <<EOF
+apiVersion: kagent.dev/v1alpha2
+kind: ModelConfig
+metadata:
+  name: default-model-config
+  namespace: kagent
+spec:
+  apiKeySecret: kagent-openai
+  apiKeySecretKey: OPENAI_API_KEY
+  model: nvidia/nemotron-3-super-120b-a12b:free
+  provider: OpenAI
+  openAI:
+    baseUrl: "https://openrouter.ai/api/v1"    
+EOF
+
+kagent invoke -t "请在集群中安装 Istio，使用 default profile，并启用 Ambient Mesh" --agent istio-agent
+
 4、xc_hlw_生产环境
