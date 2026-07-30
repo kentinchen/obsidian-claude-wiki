@@ -4,9 +4,8 @@
 4、安装dapr、pytorch、tensorflow
 
 1、安装wlsc、wsl ui
-2、安装docker desktop
-3、安装virtual box、vagrant
-4、安装minikube、helm、kustomize
+2、安装docker desktop、virtual box、vagrant
+3、安装minikube、helm、kustomize、kubectl
 
 1、安装MobaXterm、 tmux、psmux、rmux、winscp、xTerminal
 2、安装Obsidian、Lens、Tolaria
@@ -14,9 +13,9 @@
 4、安装迅雷、向日葵、Office
 
 1、安装git、tortoise git、Beyond Compare
-2、安装nvm desktop、g、uv、pnpm
-3、安装anaconda、
-4、安装java、go、rust、flutter、python
+2、安装uv、pnpm、anaconda
+3、FlyEnv安装（java、go、rust、flutter、python）
+4、安装mvn、bazelisk
 
 1、安装Jetbrains Tools
 2、安装VS Code及Visual Studio
@@ -24,8 +23,8 @@
 1、安装LM Studio、Ollama、AnythingLLM、Herdsman
 2、安装 CC Switch、FreeLLMAPI、openRoute、omniroute、free-claude-code
 3、安装飞书、微信
-4、Trae、Trae worker、Qoder、Qoder worker、claude code、opencode、Cherry Studio
-5、安装Agents(在CC Switch中图形安装，hermes) 
+4、Trae、Trae worker、Cherry Studio
+5、安装Agents(在CC Switch中图形安装，hermes、claude code、opencode) 
 6、配置agens、skills及mcp (wigolo、openSpace、drawio)
 7、安装mimic
 

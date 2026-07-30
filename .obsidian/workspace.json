@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "环境/cyy.md",
+                "file": "环境/windows本地.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cyy"
+              "title": "windows本地"
             }
           }
         ]
@@ -206,8 +206,10 @@
   },
   "active": "4737ae10d0c2617e",
   "lastOpenFiles": [
-    "环境/windows本地.md",
+    "环境/wsl本地.md",
+    "环境/resource/proxychains配置.md",
     "环境/cyy.md",
+    "环境/windows本地.md",
     "环境/resource/grok.md",
     "环境/resource/hermes配置文件.md",
     "SOURCES/lang/python/ocr.md",
@@ -216,12 +218,10 @@
     "环境/resource/CC 安装.md",
     "环境/resource/OmniRoute配置.md",
     "环境/resource/mimic.md",
-    "环境/resource/proxychains配置.md",
     "环境/resource/Clash Verge订阅.md",
     "SOURCES/coding/cdp/cdp-proxy启动.md",
     "SOURCES/cmdb/apachegravitino World's most powerful open data catalog for building a high-performance, geo-distributed and federated metadata lake.md",
     "SOURCES/ai/agc/microsoft-call-center-ai.md",
-    "环境/wsl本地.md",
     "AGENTS.md",
     "SOURCES/win",
     "SOURCES/web/nocodbnocodb.md",
