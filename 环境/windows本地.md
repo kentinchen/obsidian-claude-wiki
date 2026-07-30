@@ -4,29 +4,29 @@
 4、安装dapr、pytorch、tensorflow
 
 1、安装wlsc、wsl ui
-2、安装docker desktop、virtual box、vagrant
-3、安装minikube、helm、kustomize、kubectl、Kagent、Istio
+2、安装docker desktop、virtual box、vmware、vagrant
+3、安装minikube、helm、kustomize、kubectl、Kagent、Istio、Lens
 
 1、安装MobaXterm、 tmux、psmux、rmux、winscp、xTerminal
-2、安装Obsidian、Lens、Tolaria
+2、安装Obsidian、Tolaria
 3、安装mysql workbench、kafka-king、OffsetExplorer3
 4、安装迅雷、向日葵、Office
+5、安装飞书、微信
 
 1、安装git、tortoise git、Beyond Compare
 2、安装uv、pnpm、anaconda
 3、FlyEnv安装（java、go、rust、flutter、python）
-4、安装mvn、bazelisk
+4、安装mvn、gradle、bazelisk
 
 1、安装Jetbrains Tools
 2、安装VS Code及Visual Studio
 
 1、安装LM Studio、Ollama、AnythingLLM、Herdsman
 2、安装 CC Switch、FreeLLMAPI、openRoute、omniroute、free-claude-code
-3、安装飞书、微信
-4、Trae、Trae worker、Cherry Studio
-5、安装Agents(在CC Switch中图形安装，hermes、claude code、opencode) 
-6、配置agens、skills及mcp (wigolo、openSpace、drawio)
-7、安装buzz、mimic、supabase
+3、Trae、Trae worker、Cherry Studio
+4、安装Agents(在CC Switch中图形安装，hermes、claude code、opencode) 
+5、配置agens、skills及mcp (wigolo、openSpace、drawio)
+6、安装buzz、mimic、supabase
 
 关闭反病毒
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 1 /t REG_DWORD /f
