@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ea973aff9d537728",
+        "id": "984b2fce6f72c611",
         "type": "tabs",
         "children": [
           {
-            "id": "a86f832b56504579",
+            "id": "8ce11564571bab0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -206,14 +206,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a86f832b56504579",
+  "active": "8ce11564571bab0d",
   "lastOpenFiles": [
-    "环境/resource/git.md",
     "环境/resource/cyy/proxy.md",
-    "环境/resource/cyy/cyy环境.md",
-    "环境/resource/cyy/生产环境.md",
+    "环境/resource/OmniRoute配置.md",
+    "环境/resource/CC Switch配置.md",
     "环境/resource/cyy/测试环境.md",
     "环境/resource/cyy/开发环境.md",
+    "环境/resource/cyy/生产环境.md",
+    "环境/resource/cyy/cyy环境.md",
+    "环境/wsl本地.md",
+    "环境/windows本地.md",
+    "环境/resource/git.md",
     "环境/resource/cyy",
     "环境/resource/minikube/minikube.md",
     "环境/resource/minikube/proxy 1.sh",
@@ -223,16 +227,12 @@
     "环境/resource/minikube/proxy.env",
     "环境/resource/minikube/minikube.service",
     "环境/resource/minikube",
-    "环境/wsl本地.md",
-    "环境/windows本地.md",
     "环境/resource/proxychains配置.md",
     "环境/resource/grok.md",
     "环境/resource/hermes配置文件.md",
     "SOURCES/lang/python/ocr.md",
     "SOURCES/lang/python",
-    "环境/resource/CC Switch配置.md",
     "环境/resource/CC 安装.md",
-    "环境/resource/OmniRoute配置.md",
     "环境/resource/mimic.md",
     "环境/resource/Clash Verge订阅.md",
     "SOURCES/coding/cdp/cdp-proxy启动.md",

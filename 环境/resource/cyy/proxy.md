@@ -48,3 +48,5 @@ git config --global https.proxy socks5://172.63.132.33:7897
 加速站
 git config --global url."https://hub.fastgit.xyz/".insteadOf https://github.com/
 git config --global --unset url."https://hub.fastgit.xyz/".insteadOf
+
+pip install --no-cache-dir -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com

@@ -9,6 +9,7 @@ omniroute setup-claude               # 一键配置 Claude Code 走 OmniRoute
 	vpc: http://172.62.130.33:8080/v1
 	sk-3eda773f71924d64b8fb9eb772d4ed07
 	Qwen3.6-27B
+	curl http://172.62.130.33:8080/v1/models -H "Authorization: Bearer sk-3eda773f71924d64b8fb9eb772d4ed07"
 	
 	https://openrouter.ai
 	https://openrouter.ai/api
