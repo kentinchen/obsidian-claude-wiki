@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7bd045caa28efd00",
+        "id": "cba414b91289d198",
         "type": "tabs",
         "children": [
           {
-            "id": "4737ae10d0c2617e",
+            "id": "30001cfe1bf11ef3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "环境/cyy.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "cyy"
+              "title": "新标签页"
             }
           }
         ]
@@ -204,8 +200,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4737ae10d0c2617e",
+  "active": "76993eb88728c799",
   "lastOpenFiles": [
+    "环境/resource/minikube/proxy 1.sh",
+    "环境/resource/minikube/proxy 1.env",
+    "环境/resource/minikube/minikube 1.service",
+    "环境/resource/minikube/proxy.sh",
+    "环境/resource/minikube/proxy.env",
+    "环境/resource/minikube/minikube.service",
+    "环境/resource/minikube",
     "环境/wsl本地.md",
     "环境/windows本地.md",
     "环境/cyy.md",
@@ -231,17 +234,10 @@
     "SOURCES/security/bepass-org-oblivion-desktop.md",
     "SOURCES/security",
     "SOURCES/scm/github.md",
-    "SOURCES/scm",
     "SOURCES/proxy/安装说明  V2Fly中文站.md",
     "SOURCES/proxy/SagerNetsing-box The universal proxy platform.md",
     "SOURCES/proxy/jpillorachisel A fast TCPUDP tunnel over HTTP.md",
     "SOURCES/proxy/haad proxychains.md",
-    "SOURCES/proxy/Clash Verge Rev使用教程.md",
-    "SOURCES/proxy",
-    "SOURCES/otel",
-    "SOURCES/ops",
-    "SOURCES/odp",
-    "SOURCES/obsidian",
     "SOURCES/ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "raw/ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "Pasted image 20260628213107.png",

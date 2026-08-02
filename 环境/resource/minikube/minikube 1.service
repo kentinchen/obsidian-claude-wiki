@@ -1,0 +1,17 @@
+[Unit]
+Description=Start Minikube Cluster
+After=network-online.target docker.service
+Wants=network-online.target docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStartPre=/opt/proxy.sh
+EnvironmentFile=/opt/proxy.env
+ExecStart=/usr/local/bin/minikube start --embed-certs  --listen-address=0.0.0.0 --apiserver-ips=172.63.132.144 --force
+ExecStop=/usr/local/bin/minikube stop
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

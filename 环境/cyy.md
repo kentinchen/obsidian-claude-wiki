@@ -74,6 +74,20 @@ spec:
     baseUrl: "https://openrouter.ai/api/v1"    
 EOF
 
+安装istio
 kagent invoke -t "请在集群中安装 Istio，使用 default profile，并启用 Ambient Mesh" --agent istio-agent
+
+cd ~ && curl -L https://istio.io/downloadIstio | sh -  
+istioctl x precheck
+istioctl version 
+istioctl analyze
+kubectl label namespace default istio-injection=enabled
+
+helm repo add prometheus https://prometheus-community.github.io/helm-charts 
+helm repo update 
+helm install prometheus prometheus/prometheus \
+--namespace observability --create-namespace \
+--set server.persistentVolume.enabled=false \
+--set server.service.type=ClusterIP
 
 4、xc_hlw_生产环境
