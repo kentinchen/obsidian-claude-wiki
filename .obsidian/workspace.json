@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "984b2fce6f72c611",
+        "id": "d7f6c74328c5d8ff",
         "type": "tabs",
         "children": [
           {
-            "id": "8ce11564571bab0d",
+            "id": "f84fbc93b2490da2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "环境/resource/cyy/proxy.md",
+                "file": "环境/resource/cyy/测试环境.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "proxy"
+              "title": "测试环境"
             }
           }
         ]
@@ -206,16 +206,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ce11564571bab0d",
+  "active": "f84fbc93b2490da2",
   "lastOpenFiles": [
-    "环境/resource/cyy/proxy.md",
-    "环境/resource/OmniRoute配置.md",
-    "环境/resource/CC Switch配置.md",
+    "环境/wsl本地.md",
     "环境/resource/cyy/测试环境.md",
     "环境/resource/cyy/开发环境.md",
     "环境/resource/cyy/生产环境.md",
+    "环境/resource/cyy/proxy.md",
     "环境/resource/cyy/cyy环境.md",
-    "环境/wsl本地.md",
+    "SOURCES/proxy/安装说明  V2Fly中文站.md",
+    "环境/resource/OmniRoute配置.md",
+    "环境/resource/CC Switch配置.md",
     "环境/windows本地.md",
     "环境/resource/git.md",
     "环境/resource/cyy",
@@ -243,7 +244,6 @@
     "SOURCES/web/nocodbnocodb.md",
     "SOURCES/security/jpillora-chisel.md",
     "SOURCES/security/chaitin-SafeLine.md",
-    "SOURCES/security/bepass-org-oblivion-desktop.md",
     "SOURCES/ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "raw/ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "Pasted image 20260628213107.png",
