@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cba414b91289d198",
+        "id": "259162c532d6fb00",
         "type": "tabs",
         "children": [
           {
-            "id": "30001cfe1bf11ef3",
+            "id": "d947f9ca68d3281d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -200,7 +200,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76993eb88728c799",
+  "active": "d947f9ca68d3281d",
   "lastOpenFiles": [
     "环境/resource/minikube/proxy 1.sh",
     "环境/resource/minikube/proxy 1.env",
