@@ -18,3 +18,10 @@ opencode --help
 https://openrouter.ai
 https://openrouter.ai/api/v1
 openrouter/free
+
+
+https://integrate.api.nvidia.com/v1
+
+cpolar-tunnel创建动态端口转发，参数为 33895:172.63.132.33:3389 38080:172.62.130.33:8080
+Base URL: http://localhost:38080/v1
+上游协议：Chat Completions
