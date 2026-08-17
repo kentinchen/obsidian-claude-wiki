@@ -36,3 +36,10 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "Di
 
 
 
+netsh winhttp show proxy
+netsh winhttp set proxy 127.0.0.1:10808
+netsh winhttp reset proxy
+
+$env:HTTP_PROXY = "http://127.0.0.1:10808"
+$env:HTTPS_PROXY = "https://127.0.0.1:10808"
+
