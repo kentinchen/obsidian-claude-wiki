@@ -7,7 +7,7 @@ npm install -g @fission-ai/openspec --allow-scripts=@fission-ai/openspec
 openspec init
 openspec update
 
-/opsx-propose "创建一个后台管理程序，主要功能是定时采集数据，然后保存到数据库中，web界面上确认数据无误之后，点击发送或自动定时发送到云管服务器"
+/opsx-propose "创建一个后台管理程序....."
 /opsx:apply
 /opsx:sync 
 /opsx:archive
@@ -27,7 +27,7 @@ https://openspec.dev/
 第一步，写清项目上下文。
 至少准备好 README 和 AGENTS.md。告诉 Codex 项目是什么、技术栈是什么、目录怎么分工、常用命令是什么、哪些边界不能碰。
 第二步，用 Superpowers 的 brainstorming 先讨论需求。
-不要一句话直接开写。让 Codex 先问你问题，把用户、场景、边界、第一版范围和验收标准问清楚。
+让 Codex 先问你问题，把用户、场景、边界、第一版范围和验收标准问清楚。
 第三步，用 OpenSpec / SDD 写规格和任务。
 让它先列出这次改什么、不改什么、怎么拆任务、怎么验证。规格确认后再实现。
 第四步，小步实现。
