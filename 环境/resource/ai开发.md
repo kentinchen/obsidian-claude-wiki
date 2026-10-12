@@ -40,3 +40,4 @@ https://openspec.dev/
 验证实现	$openspec-verify-change	    校验代码是否与规范对齐
 归档变更	$openspec-archive-change	完成后归档，更新主文档
 探索调研	$openspec-explore	        探索和调研需求想法
+
