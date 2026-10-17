@@ -21,7 +21,8 @@ custom_providers:
       auto/chat:
         name: auto/chat
     model: auto/best-coding
-
+  
+hermes desktop
 hermes dashboard
 http://localhost:9119/sessions
 

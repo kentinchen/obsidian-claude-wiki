@@ -1,3 +1,7 @@
+npm install -g @anthropic-ai/claude-code --allow-scripts=@anthropic-ai/claude-code
+npm install -g @openai/codex  --allow-scripts=@openai/codex
+npm install -g opencode-ai --allow-scripts=opencode-ai
+
 npm uninstall -g @anthropic-ai/claude-code
 npm install -g @anthropic-ai/claude-code --allow-scripts=@anthropic-ai/claude-code
 claude --version
@@ -11,9 +15,14 @@ zhishile/codex-auth-helper: Codex登陆助手
 mv ~/Downloads/auth.json ~/.codex/auth.json
 chmod 600 ~/.codex/auth.json
 
-
 npm install -g opencode-ai --allow-scripts=opencode-ai
 opencode --help
+
+irm https://trae.cn/trae-cli/install_v2.ps1 | iex
+
+安装orca
+npx skills add https://github.com/stablyai/orca --skill orca-cli --skill orchestration --global
+npx skills add https://github.com/stablyai/orca --skill computer-use --global
 
 https://openrouter.ai
 https://openrouter.ai/api/v1
