@@ -30,6 +30,7 @@ npm install -g cc-connect --allow-scripts=cc-connect
 cc-connect
 cc-connect web
 cc-connect update
+npm update -g @atticux/cc-connect
 cc-connect daemon install --config ~/.cc-connect/config.toml  #windows不支持
 cc-connect daemon start
 cc-connect daemon restart
