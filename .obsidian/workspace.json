@@ -11,10 +11,14 @@
             "id": "6f9e5b965d68afc1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "环境/resource/cyy/钉钉配置.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "钉钉配置"
             }
           }
         ]
@@ -202,8 +206,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f9e5b965d68afc1",
+  "active": "76993eb88728c799",
   "lastOpenFiles": [
+    "环境/resource/cyy/钉钉配置.md",
     "环境/resource/cyy/飞书配置.md",
     "环境/resource/CC 安装.md",
     "环境/resource/cyy/feishu.md",
@@ -230,7 +235,6 @@
     "环境/resource/grok.md",
     "环境/resource/Clash Verge订阅.md",
     "SOURCES/ai/hermes/30个神级HermesAgent插件曝光.md",
-    "SOURCES/proxy/安装说明  V2Fly中文站.md",
     "环境/resource/cyy",
     "环境/resource/minikube/proxy 1.sh",
     "环境/resource/minikube/proxy 1.env",
