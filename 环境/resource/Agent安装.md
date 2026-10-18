@@ -12,13 +12,31 @@ mv ~/Downloads/auth.json ~/.codex/auth.json
 chmod 600 ~/.codex/auth.json
 
 npm install -g opencode-ai --allow-scripts=opencode-ai
+npm install -g @opencode/cli --allow-scripts=@opencode/cli 
 opencode --help
 
 irm https://trae.cn/trae-cli/install_v2.ps1 | iex
 
 安装orca
+set  SKILLS_CLONE_TIMEOUT_MS=6000000
+git config --global http.proxy http://127.0.0.1:10808
+git config --global https.proxy http://127.0.0.1:10808
 npx skills add https://github.com/stablyai/orca --skill orca-cli --skill orchestration --global
 npx skills add https://github.com/stablyai/orca --skill computer-use --global
+~\.agents\skills\orca-cli
+
+安装cc-connect
+npm install -g cc-connect --allow-scripts=cc-connect
+cc-connect
+cc-connect web
+cc-connect update
+cc-connect daemon install --config ~/.cc-connect/config.toml  #windows不支持
+cc-connect daemon start
+cc-connect daemon restart
+http://localhost:9820
+cc-connect feishu setup --project cyy
+cc-connect feishu setup --project cyy --app cli_xxx:sec_xxx
+https://open.feishu.cn/page/launcher?user_code=7MPD-ZHS6
 
 https://openrouter.ai
 https://openrouter.ai/api/v1

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "环境/resource/cc-connect.md",
+                "file": "环境/resource/cyy/channel/飞书配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cc-connect"
+              "title": "飞书配置"
             }
           }
         ]
@@ -209,10 +209,10 @@
   "active": "37c386f8d328e0d5",
   "lastOpenFiles": [
     "环境/resource/Agent安装.md",
-    "环境/resource/ai开发.md",
-    "环境/resource/CC-Switch配置文件.md",
     "环境/resource/CC-Switch配置指南.md",
     "环境/resource/cc-connect.md",
+    "环境/resource/ai开发.md",
+    "环境/resource/CC-Switch配置文件.md",
     "环境/resource/hermes配置文件.md",
     "环境/resource/grok.md",
     "环境/resource/mimic.md",
