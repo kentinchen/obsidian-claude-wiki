@@ -11,14 +11,14 @@
             "id": "6f9e5b965d68afc1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "环境/resource/cyy/env/cyy环境.md",
-                "mode": "source",
-                "source": false
+                "aFile": "环境/resource/CC Switch配置.md",
+                "bFile": "环境/resource/CC Switch配置.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "cyy环境"
+              "icon": "diff",
+              "title": "Diff: CC Switch配置  (Working Tree)"
             }
           }
         ]
@@ -208,23 +208,23 @@
   },
   "active": "6f9e5b965d68afc1",
   "lastOpenFiles": [
+    "环境/resource/CC Switch配置.md",
+    "环境/resource/ai开发.md",
+    "环境/resource/cyy/ai config.md",
+    "环境/resource/cyy/env/cyy环境.md",
     "环境/resource/cyy/env/测试环境.md",
     "环境/resource/cyy/env",
     "环境/resource/cyy/env/开发环境.md",
     "环境/resource/cyy/env/生产环境.md",
-    "环境/resource/cyy/env/cyy环境.md",
-    "环境/resource/cyy/ai config.md",
     "环境/resource/cyy/proxy.md",
     "环境/resource/cyy/channel/钉钉配置.md",
     "环境/resource/cyy/channel",
     "环境/resource/cyy/channel/飞书配置.md",
     "环境/resource/CC 安装.md",
     "环境/resource/cyy/feishu.md",
-    "环境/resource/CC Switch配置.md",
     "环境/resource/CC-Switch-Agent-配置指南.md",
     "环境/resource/cc-connect：把 Claude Code 接入微信和飞书.md",
     "环境/resource/hermes配置文件.md",
-    "环境/resource/ai开发.md",
     "环境/windows本地.md",
     "环境/wsl本地.md",
     "Clippings/构建基于Prometheus和Grafana的IPMIBMC监控告警系统-腾讯云开发者社区-腾讯云.md",
