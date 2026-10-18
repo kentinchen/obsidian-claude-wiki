@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "92a8433d8d747823",
+        "id": "2a211819f1d004b9",
         "type": "tabs",
         "children": [
           {
-            "id": "6f9e5b965d68afc1",
+            "id": "37c386f8d328e0d5",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "环境/resource/CC Switch配置.md",
-                "bFile": "环境/resource/CC Switch配置.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: CC Switch配置  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -206,9 +202,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f9e5b965d68afc1",
+  "active": "37c386f8d328e0d5",
   "lastOpenFiles": [
-    "环境/resource/CC Switch配置.md",
+    "环境/resource/CC-Switch配置文件.md",
+    "环境/resource/CC-Switch配置指南.md",
+    "环境/resource/cc-connect：把 Claude Code 接入微信和飞书.md",
+    "环境/resource/hermes配置文件.md",
+    "环境/resource/grok.md",
+    "环境/resource/mimic.md",
+    "环境/resource/OmniRoute配置.md",
+    "环境/resource/cyy/proxy/Clash Verge订阅.md",
+    "环境/resource/cyy/proxy/proxy.md",
+    "环境/resource/cyy/proxy",
+    "环境/resource/CC 安装.md",
     "环境/resource/ai开发.md",
     "环境/resource/cyy/ai config.md",
     "环境/resource/cyy/env/cyy环境.md",
@@ -216,33 +222,23 @@
     "环境/resource/cyy/env",
     "环境/resource/cyy/env/开发环境.md",
     "环境/resource/cyy/env/生产环境.md",
-    "环境/resource/cyy/proxy.md",
     "环境/resource/cyy/channel/钉钉配置.md",
     "环境/resource/cyy/channel",
     "环境/resource/cyy/channel/飞书配置.md",
-    "环境/resource/CC 安装.md",
     "环境/resource/cyy/feishu.md",
-    "环境/resource/CC-Switch-Agent-配置指南.md",
-    "环境/resource/cc-connect：把 Claude Code 接入微信和飞书.md",
-    "环境/resource/hermes配置文件.md",
     "环境/windows本地.md",
     "环境/wsl本地.md",
     "Clippings/构建基于Prometheus和Grafana的IPMIBMC监控告警系统-腾讯云开发者社区-腾讯云.md",
     "Clippings",
     "SOURCES/lang/cpp/cpp-for-yourself-lectures-and-homeworks.md",
     "AGENTS.md",
-    "环境/resource/proxychains配置.md",
-    "环境/resource/OmniRoute配置.md",
-    "环境/resource/mimic.md",
-    "环境/resource/grok.md",
-    "环境/resource/Clash Verge订阅.md",
+    "环境/resource/cyy/proxy/proxychains配置.md",
     "环境/resource/cyy",
     "环境/resource/minikube/proxy 1.sh",
     "环境/resource/minikube/proxy 1.env",
     "环境/resource/minikube/minikube 1.service",
     "环境/resource/minikube/proxy.sh",
     "环境/resource/minikube/proxy.env",
-    "环境/resource/minikube/minikube.service",
     "SOURCES/ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "raw/ai/wiki/c0200396ef55e1d590881de0dcf1662d.jpeg",
     "Pasted image 20260628213107.png",

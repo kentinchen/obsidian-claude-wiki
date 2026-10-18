@@ -11,9 +11,9 @@
 
 ## 1. 核心概念
 
-不同 Agent 使用的 API 协议格式不同，而你的后端服务器 (`172.62.130.33:8080`) 仅支持 **OpenAI Chat Completions** 标准。
+不同 Agent 使用的 API 协议格式不同，而你的后端服务器 (`172.62.130.33:8080`) Qwen3.6仅支持 **OpenAI Chat Completions** 标准（/v1/chat/completions）。
 
-- **Claude Code**: 使用 Anthropic Messages 格式。需要 CC-Switch 本地代理进行格式转换。
+- **Claude Code**: 使用 Anthropic Messages （/v1/messages）格式。需要 CC-Switch 本地代理进行格式转换。
 - **OpenAI Codex**: 使用 OpenAI Responses API 格式。如果后端不支持，也需要本地代理进行转换。
 - **OpenCode**: 使用标准 OpenAI Chat Completions 格式。可以直连后端。
 
