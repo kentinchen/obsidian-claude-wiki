@@ -1,7 +1,3 @@
-npm install -g @anthropic-ai/claude-code --allow-scripts=@anthropic-ai/claude-code
-npm install -g @openai/codex  --allow-scripts=@openai/codex
-npm install -g opencode-ai --allow-scripts=opencode-ai
-
 npm uninstall -g @anthropic-ai/claude-code
 npm install -g @anthropic-ai/claude-code --allow-scripts=@anthropic-ai/claude-code
 claude --version
