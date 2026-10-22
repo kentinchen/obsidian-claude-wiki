@@ -53,12 +53,16 @@
        "ANTHROPIC_DEFAULT_FABLE_MODEL_NAME": "Qwen3.8-27B",
        "CLAUDE_CODE_SUBAGENT_MODEL": "Qwen3.8-27B",
        "CLAUDE_CODE_EFFORT_LEVEL": "low",
+       "ENABLE_TOOL_SEARCH": "false",
+       "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "16384",
        "CLAUDE_CODE_AUTO_MODE_SERVER": "0"
      }
    }
    ```
    > 代理接管模式下，`*_MODEL` 是发给代理的档位名（代理再映射到 Qwen3.8-27B），`*_MODEL_NAME` 仅作显示。
    > `CLAUDE_CODE_EFFORT_LEVEL=low` 用于规避上游 effort 不兼容问题（见 6.1），也可以改用 CC-Switch 请求体改写方案。
+   > `ENABLE_TOOL_SEARCH=false` 用于规避 tool_reference 块不兼容（见 6.3）。
+   > `CLAUDE_CODE_MAX_OUTPUT_TOKENS=16384` 把默认的 64000 输出预留降为 1/4，缓解上游 KV cache OOM（见 6.4）。
 
 ---
 
@@ -128,6 +132,8 @@
 | **System message must be at the beginning** | 后端校验严格 | 确保 CC-Switch 开启 **"Strict OpenAI Format"** 或在 Agent 设置中开启严格的格式转换。 |
 | **HTTP 500 Internal server error（Claude Code）** | 请求体含上游不支持的参数（如 `output_config.effort: high`） | 见 [6.1](#61-claude-code-持续报-500effort-参数不兼容) |
 | **HTTP 400 Unexpected reasoning effort high（Codex）** | `config.toml` 中 `model_reasoning_effort` 取值上游不支持 | 见 [6.2](#62-codex-报-400unexpected-reasoning-effort-high) |
+| **HTTP 500 Internal server error（Claude Code 第二轮起）** | 会话用了 ToolSearch，历史里带 `tool_reference` 块 | 见 [6.3](#63-claude-code-第二轮起持续报-500toolreference-块不兼容) |
+| **Out of memory even after retracting all other requests in the decode batch** | 上游 KV cache 池被并发请求挤爆（服务端错误） | 见 [6.4](#64-out-of-memory-even-after-retracting-上游-kv-cache-耗尽) |
 
 ---
 
@@ -183,3 +189,79 @@ Supported types are xhigh (default), medium, and low.
 想要更强推理可改为 `"xhigh"`（上游默认值）。修改后新开会话生效。
 
 > 经验：同一上游服务不同协议端点（Anthropic Messages vs OpenAI Responses）对参数的校验规则可能完全不同，Claude 侧和 Codex 侧报错要分别验证，不能想当然套用。
+
+### 6.3 Claude Code 第二轮起持续报 500（tool_reference 块不兼容）
+
+**现象**：会话**第一轮正常**，模型调用了 ToolSearch 工具后，从第二轮开始每次请求都 500 并无限重试（最终触发 CC-Switch 熔断器）。`output_config.effort` 已是 low 也照样失败。
+
+**根因**：Claude Code 2.1.308 的 **ToolSearch（延迟工具加载）**特性：工具定义不全量下发，模型按需调用 ToolSearch 加载，Claude Code 再用 `tool_reference` 块回填到 `tool_result` 里：
+
+```json
+{
+  "type": "tool_result",
+  "tool_use_id": "call_xxx",
+  "content": [
+    { "type": "tool_reference", "tool_name": "WebFetch" }
+  ]
+}
+```
+
+上游 SGLang 的 Anthropic 兼容端点不认识 `tool_reference` 块，解析即 500。官方文档也明确说明 *"most proxies do not forward tool_reference blocks"*——不支持的端点应关闭该特性。
+
+**定位方法**（通用，值得记录）：
+1. 从 `~/.claude/projects/<项目目录>/<sessionId>.jsonl` 里提取 `api-request`（参数）与 `api-request-blob`（消息内容，按 hash 引用）；
+2. 按时间线找到"最后一次成功"与"第一次失败"的请求，对比差异；
+3. 把失败请求原样重放到上游复现，再逐块剔除二分（本次：去掉 tool_reference / 改 signature / 去 thinking / 去 system 块都无效，最终用"从成功基线逐块加回"锁定 tool_result 里的 tool_reference 块）。
+
+**解决**：在 `~/.claude/settings.json` 的 `env` 中加：
+
+```json
+"ENABLE_TOOL_SEARCH": "false"
+```
+
+关闭 ToolSearch 后所有工具定义直接进上下文，不再产生 `tool_reference` 块。副作用是每轮会话多消耗一些上下文（工具定义全量加载）。也可用 `"auto:N"` 阈值模式（工具定义超过上下文 N% 才启用 ToolSearch）。
+
+**注意**：已经"污染"的会话救不回来——历史里的 tool_reference 块每次重发都会 500，必须**开新会话**。
+
+### 6.4 Out of memory even after retracting...（上游 KV cache 耗尽）
+
+**现象**：
+```
+API Error: Out of memory even after retracting all other requests in the decode batch.
+Aborting the last request
+```
+
+**定性**：这是 **SGLang 服务端（调度器）错误**，不是客户端 bug。含义是：解码阶段 GPU 上的 KV cache 池占满，SGLang 的自救机制是把同批其他请求"撤回"（retract）释放显存，但把其他请求全部撤光后仍放不下最后这个请求，只能中止它。
+
+**本机相关配置**（`/get_server_info` 实测）：`max_total_num_tokens = 86455`（全部请求**共享**的 KV 池只有 ~86k tokens），`max_running_requests = 48`（允许 48 路并发抢同一个池）。
+
+**典型触发场景**：Claude Code 同时发多个请求（主对话 + 后台 haiku 小请求 + subagent），每个带几万 token 上下文，解码时 KV 持续增长，几个并发请求加起来撑爆池子。请求里 `max_tokens: 64000` 的输出预留会加速消耗。
+
+**解决**：
+
+1. **客户端减需求（已采用）**：`~/.claude/settings.json` 的 env 加：
+   ```json
+   "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "16384"
+   ```
+   输出预留降为 1/4，解码期 KV 增长空间需求大幅缩小。另：报错会话及时 `/compact`，避免同时开多个 Claude Code 窗口。
+2. **服务端增供给（改 SGLang 启动参数后重启）**：
+   - `--max-running-requests 8`：48 路并发对 86k 的池完全不合理，先限制并发；
+   - `--mem-fraction-static 0.90`（默认 0.85）：显存有余量时扩大 KV 池；若重启后报 CUDA OOM 则回调；
+   - 单纯重启一次服务可清掉显存碎片（碎片化会加剧此错误）。
+
+**推荐顺序**：先做 1 + 限制并发（零风险），不够再调显存参数。
+
+---
+
+## 7. 上游 SGLang 不兼容清单（汇总）
+
+| # | 不兼容项 | 表现 | 规避方式 |
+| :--- | :--- | :--- | :--- |
+| 1 | `output_config.effort = high/max/xhigh` | 500 | `CLAUDE_CODE_EFFORT_LEVEL=low` 或 CC-Switch 请求体改写 |
+| 2 | Codex `model_reasoning_effort = high` | 400 | config.toml 改 `medium`/`xhigh` |
+| 3 | 图片输入（image block） | 500 | 不读图/不贴图；换 vision 模型 |
+| 4 | `tool_reference` 块（ToolSearch） | 500 | `ENABLE_TOOL_SEARCH=false` |
+| 5 | 实际输入上限 86449 tokens（非标称 262k） | 400 | 长会话及时 `/compact` 或重开 |
+| 6 | 并发挤爆 KV cache 池（86k tokens 共享，48 路并发） | Out of memory even after retracting...（服务端中止请求） | `CLAUDE_CODE_MAX_OUTPUT_TOKENS=16384` + 限制并发；服务端 `--max-running-requests 8`、必要时提 `--mem-fraction-static` |
+
+> 根本解法：升级 SGLang 到更完整的 Anthropic 兼容层版本，或换支持这些特性的网关。升级前按上表规避即可稳定使用。
